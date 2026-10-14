@@ -21,22 +21,6 @@
 
 ### `01 / 自己紹介 — who am i`
 
-```text
-$ cat identity.txt
-
-alias       : azinamouto
-role        : Founder & CTO @ ALZA
-class       : Full-Stack Engineer
-experience  : ~6 years of coding
-location    : Philippines
-
-focus       : Full-stack development / GovTech / Systems engineering
-interests   : Security / Automation / Applied AI / Developer tooling
-side_quest  : Anime, experimental projects, and learning new things
-
-status      : constantly building...
-```
-
 こんにちは、azinamouto です。
 
 I'm a **full-stack developer and Founder & CTO of ALZA**, a technology venture focused on developing practical digital solutions.
@@ -57,7 +41,7 @@ Outside engineering? I love anime, obviously. :>
 
 ---
 
-### `02 / 技術構成 — technology stack`
+### `02 / 技術構成 — my technology stack`
 
 <div align="center">
 
@@ -87,11 +71,9 @@ Outside engineering? I love anime, obviously. :>
 
 ---
 
-### `03 / 開発中の作品 — selected builds`
+### `03 / 開発中の作品 — some of my nonsense projects`
 
 **作って、壊して、また作る。**
-
-*Build. Break. Understand. Rebuild.*
 
 | Project | Engineering focus |
 | :--- | :--- |
@@ -141,21 +123,6 @@ Outside engineering? I love anime, obviously. :>
 **初心忘るべからず。** — Never forget the beginner's mindset.
 
 ---
-
-### `06 / 現在の目標 — current objectives`
-
-```text
-$ cat roadmap.txt
-
-[+] Develop practical government information systems
-[+] Strengthen full-stack and backend engineering
-[+] Explore secure application architecture
-[+] Build useful open-source developer tools
-[+] Experiment with AI-assisted engineering
-[+] Grow ALZA through meaningful technology
-
-> next milestone: unknown
-```
 
 I'm interested in the intersection of **software engineering, systems architecture, security, and real-world digital transformation**.
 
