@@ -18,6 +18,6 @@
 <text x="34" y="82" fill="#3fb950" font-size="18" class="mono">$ whoami</text>
 <text x="34" y="125" fill="#e6edf3" font-size="35" font-weight="bold" class="mono">azinamouto</text>
 <path class="line1" d="M34 141H500" stroke="#3fb950" stroke-width="2"/>
-<text x="34" y="171" fill="#9da7b3" font-size="16" class="mono line2">full-stack developer / systems builder</text>
-<text x="34" y="198" fill="#3fb950" font-size="14" class="mono line3">&gt; building quietly, shipping eventually <tspan class="cursor">_</tspan></text>
+<text x="34" y="171" fill="#9da7b3" font-size="16" class="mono line2">founder &amp; CTO @ ALZA / full-stack engineer</text>
+<text x="34" y="198" fill="#3fb950" font-size="14" class="mono line3">&gt; shizuka ni tsukuru / build in silence <tspan class="cursor">_</tspan></text>
 </svg>
