@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Animated terminal introduction for azinamouto">
+<style>
+  .mono{font-family:Consolas,'Liberation Mono',monospace}
+  .cursor{animation:blink 1s steps(1) infinite}
+  .line1{stroke-dasharray:470;stroke-dashoffset:470;animation:draw 2s .2s forwards}
+  .line2{opacity:0;animation:appear .3s 2.1s forwards}
+  .line3{opacity:0;animation:appear .3s 2.8s forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes appear{to{opacity:1}}
+  @keyframes blink{50%{opacity:0}}
+  @media(prefers-reduced-motion:reduce){.line1{stroke-dashoffset:0;animation:none}.line2,.line3{opacity:1;animation:none}.cursor{animation:none}}
+</style>
+<rect width="900" height="220" rx="13" fill="#0d1117"/>
+<rect x="1" y="1" width="898" height="218" rx="12" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M1 42H899" stroke="#30363d"/>
+<circle cx="23" cy="21" r="6" fill="#f85149"/><circle cx="45" cy="21" r="6" fill="#d29922"/><circle cx="67" cy="21" r="6" fill="#3fb950"/>
+<text x="450" y="26" fill="#8b949e" text-anchor="middle" font-size="13" class="mono">azinamouto@github:~</text>
+<text x="34" y="82" fill="#3fb950" font-size="18" class="mono">$ whoami</text>
+<text x="34" y="125" fill="#e6edf3" font-size="35" font-weight="bold" class="mono">azinamouto</text>
+<path class="line1" d="M34 141H500" stroke="#3fb950" stroke-width="2"/>
+<text x="34" y="171" fill="#9da7b3" font-size="16" class="mono line2">full-stack developer / systems builder</text>
+<text x="34" y="198" fill="#3fb950" font-size="14" class="mono line3">&gt; building quietly, shipping eventually <tspan class="cursor">_</tspan></text>
+</svg>
