@@ -13,7 +13,7 @@
 
 ---
 
-### `01 / 自己紹介 — whoami`
+### `01  — who am i`
 
 ```text
 $ cat identity.txt
@@ -21,16 +21,12 @@ alias       : azinamouto
 role        : Founder & CTO · ALZA
 focus       : Full-stack engineering / GovTech / developer tooling
 interests   : Systems design / security / automation / applied AI
-status      : まだ始まったばかり — just getting started
 ```
 
 I'm a full-stack developer and **Founder & CTO of ALZA**, working on practical software for real-world problems. I move between frontend interfaces, backend services, databases, infrastructure, and the less glamorous engineering work that makes systems reliable.
 
 My work spans **government-oriented information systems, developer utilities, security tooling, and experimental applications**. I care about thoughtful architecture, usable interfaces, and software that can grow beyond its first demo.
 
-> **技術で未来を創る。** — Building the future through technology.
->
-> **完璧より前進。** — Progress over perfection.
 
 ### `02 / 技術構成 — stack`
 
@@ -94,9 +90,9 @@ My work spans **government-oriented information systems, developer utilities, se
 
 **継続は力なり。** — Consistency is strength.
 
-**試行錯誤。** — Trial and error.
+**試行錯誤。** 
 
-**一歩ずつ。** — One step at a time.
+**一歩ずつ。** 
 
 ---
 
