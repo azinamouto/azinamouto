@@ -30,9 +30,6 @@ My work spans **government-oriented information systems, developer utilities, se
 ### `02 / 技術構成 — technology stack`
 
 <div align="center">
-
-**`言語 / PROGRAMMING LANGUAGES`**
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript)
 ![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python)
@@ -40,58 +37,28 @@ My work spans **government-oriented information systems, developer utilities, se
 ![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk)
 ![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin)
 ![Dart](https://img.shields.io/badge/Dart-111827?style=flat-square&logo=dart)
-
-<br>
-
-**`フロントエンド / FRONTEND`**
-
 ![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react)
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css)
 ![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-111827?style=flat-square&logo=javascript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap)
-
-<br>
-
-**`バックエンド / BACKEND & APIs`**
-
 ![NestJS](https://img.shields.io/badge/NestJS-111827?style=flat-square&logo=nestjs)
 ![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs)
 ![REST API](https://img.shields.io/badge/REST_API-111827?style=flat-square&logo=fastapi)
 ![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express)
-
-<br>
-
-**`モバイル開発 / MOBILE DEVELOPMENT`**
-
 ![Flutter](https://img.shields.io/badge/Flutter-111827?style=flat-square&logo=flutter)
 ![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin)
 ![Android](https://img.shields.io/badge/Android-111827?style=flat-square&logo=android)
-
-<br>
-
-**`データベース / DATABASE & CLOUD`**
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql)
 ![Supabase](https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase)
 ![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql)
-
-<br>
-
-**`開発環境 / DEVOPS & TOOLS`**
-
 ![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions)
 ![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker)
 ![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel)
 ![VS Code](https://img.shields.io/badge/VS_Code-111827?style=flat-square&logo=visualstudiocode)
-
-<br>
-
-**`セキュリティ / SECURITY ENGINEERING`**
-
 ![Application Security](https://img.shields.io/badge/Application_Security-111827?style=flat-square&logo=owasp)
 ![OWASP](https://img.shields.io/badge/OWASP-111827?style=flat-square&logo=owasp)
 ![Gitleaks](https://img.shields.io/badge/Gitleaks-111827?style=flat-square&logo=git)
