@@ -1,76 +1,83 @@
+
 <div align="center">
 
 <img src="./assets/terminal.svg" alt="Animated azinamouto terminal introduction" width="100%" />
 
 ### 静かに創り、世界を変える。
+
 *Build quietly. Change what matters.*
 
-**Founder & CTO @ ALZA** · **Full-Stack Engineer** · **Systems Architect in progress**
+**Founder & CTO @ ALZA** · **Full-Stack Engineer** · **Systems Architecture Enthusiast**
 
-<sub>創設者・最高技術責任者 ｜ フルスタック開発者 ｜ ものづくりが好き。</sub>
+<sub>創設者・最高技術責任者 ｜ フルスタックエンジニア ｜ ものづくりが好き。</sub>
+
+<br>
+
+`設計` · `開発` · `セキュリティ` · `創造`
 
 </div>
 
 ---
 
-### `01  — who am i`
+### `01 / 自己紹介 — who am i`
 
 ```text
 $ cat identity.txt
+
 alias       : azinamouto
-role        : Founder & CTO · ALZA
-focus       : Full-stack engineering / GovTech / developer tooling
-interests   : Systems design / security / automation / applied AI
+role        : Founder & CTO @ ALZA
+class       : Full-Stack Engineer
+experience  : ~6 years of coding
+location    : Philippines
+
+focus       : Full-stack development / GovTech / Systems engineering
+interests   : Security / Automation / Applied AI / Developer tooling
+side_quest  : Anime, experimental projects, and learning new things
+
+status      : constantly building...
 ```
 
-I'm a full-stack developer and **Founder & CTO of ALZA**, working on practical software for real-world problems. I move between frontend interfaces, backend services, databases, infrastructure, and the less glamorous engineering work that makes systems reliable. Been coding for about 6 years tho:>
+こんにちは、azinamouto です。
 
-My work spans **government-oriented information systems, developer utilities, security tooling, and experimental applications**. I care about thoughtful architecture. and I love AHNIMEH, obviously. lol
+I'm a **full-stack developer and Founder & CTO of ALZA**, a technology venture focused on developing practical digital solutions.
+
+I've been coding for around **six years**, exploring different technologies, architectures, and ways to turn ideas into functional software.
+
+My work spans frontend interfaces, backend services, database systems, infrastructure, security engineering, and developer tools.
+
+I'm particularly interested in building systems that solve real problems, especially in **government technology, information management, automation, and applied AI**.
+
+I enjoy understanding how systems work beneath the surface, not just making interfaces look good.
+
+Outside engineering? I love anime, obviously. :>
+
+> **完璧より前進。**
+>
+> Progress over perfection.
+
+---
 
 ### `02 / 技術構成 — technology stack`
 
 <div align="center">
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript)
-![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python)
-![Go](https://img.shields.io/badge/Go-111827?style=flat-square&logo=go)
-![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk)
-![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin)
-![Dart](https://img.shields.io/badge/Dart-111827?style=flat-square&logo=dart)
-![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css)
-![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-111827?style=flat-square&logo=javascript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap)
-![NestJS](https://img.shields.io/badge/NestJS-111827?style=flat-square&logo=nestjs)
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs)
-![REST API](https://img.shields.io/badge/REST_API-111827?style=flat-square&logo=fastapi)
-![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express)
-![Flutter](https://img.shields.io/badge/Flutter-111827?style=flat-square&logo=flutter)
-![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin)
-![Android](https://img.shields.io/badge/Android-111827?style=flat-square&logo=android)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql)
-![Supabase](https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase)
-![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql)
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions)
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker)
-![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel)
-![VS Code](https://img.shields.io/badge/VS_Code-111827?style=flat-square&logo=visualstudiocode)
-![Application Security](https://img.shields.io/badge/Application_Security-111827?style=flat-square&logo=owasp)
-![OWASP](https://img.shields.io/badge/OWASP-111827?style=flat-square&logo=owasp)
-![Gitleaks](https://img.shields.io/badge/Gitleaks-111827?style=flat-square&logo=git)
-![OSV](https://img.shields.io/badge/OSV_Scanner-111827?style=flat-square&logo=google)
-![CodeQL](https://img.shields.io/badge/CodeQL-111827?style=flat-square&logo=github)
-![SARIF](https://img.shields.io/badge/SARIF-111827?style=flat-square&logo=json)
 
-</div>
+**技術と創造 — TECHNOLOGY & CREATION**
 
 <br>
 
-<div align="center">
+<img src="https://skillicons.dev/icons?i=ts,js,python,go,java,kotlin,dart,react,html,css,bootstrap,tailwind,nodejs,nestjs,express,flutter,androidstudio,postgres,supabase,git,github,githubactions,docker,vercel,vscode,linux,bash,postman&theme=dark&perline=10" alt="Technology Stack" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/REST_API-111827?style=flat-square" alt="REST API" />
+<img src="https://img.shields.io/badge/Application_Security-111827?style=flat-square" alt="Application Security" />
+<img src="https://img.shields.io/badge/OWASP-111827?style=flat-square&logo=owasp&logoColor=white" alt="OWASP" />
+<img src="https://img.shields.io/badge/Gitleaks-111827?style=flat-square" alt="Gitleaks" />
+<img src="https://img.shields.io/badge/OSV_Scanner-111827?style=flat-square" alt="OSV Scanner" />
+<img src="https://img.shields.io/badge/CodeQL-111827?style=flat-square&logo=github&logoColor=white" alt="CodeQL" />
+<img src="https://img.shields.io/badge/SARIF-111827?style=flat-square" alt="SARIF" />
+
+<br><br>
 
 <sub>技術は道具。創造こそが目的。</sub>
 
@@ -78,63 +85,127 @@ My work spans **government-oriented information systems, developer utilities, se
 
 </div>
 
+---
+
 ### `03 / 開発中の作品 — selected builds`
+
+**作って、壊して、また作る。**
+
+*Build. Break. Understand. Rebuild.*
 
 | Project | Engineering focus |
 | :--- | :--- |
-| [Shinigami](https://github.com/azinamouto/shinigami) | Security scanning, dependency analysis, and SARIF reporting |
-| [Kuro](https://github.com/azinamouto/kuro) | Go-based developer tooling and CLI experimentation |
-| [ALZA Devkit](https://github.com/azinamouto/alza-devkit) | Mock-data generation and database developer utilities |
-| [ALZA Finstation](https://github.com/azinamouto/alza-Finstation) | Finance tracking and operational management |
-| [ALZA AI Lab](https://github.com/azinamouto/alza-ai-lab) | AI prototypes and engineering experiments |
-| [TAGAD Foundation](https://github.com/azinamouto/TAGAD-FOUNDATION) | Applied information systems development |
+| [Shinigami](https://github.com/azinamouto/shinigami) | Security scanning, dependency vulnerability analysis, and SARIF reporting |
+| [Kuro](https://github.com/azinamouto/kuro) | Go-based CLI development and developer tooling |
+| [ALZA Devkit](https://github.com/azinamouto/alza-devkit) | Mock data generation, database schemas, and development utilities |
+| [ALZA Finstation](https://github.com/azinamouto/alza-Finstation) | Financial tracking and operational management |
+| [ALZA AI Lab](https://github.com/azinamouto/alza-ai-lab) | Applied AI experiments and engineering prototypes |
+| [TAGAD Foundation](https://github.com/azinamouto/TAGAD-FOUNDATION) | Information systems and application development |
 
-<sub>進行中 — Some projects are prototypes, in development, or maintained privately. Listed links may depend on repository visibility.</sub>
+<sub>進行中 — Projects may be experimental, under active development, or privately maintained.</sub>
+
+---
 
 ### `04 / 開発記録 — contribution activity`
 
 <div align="center">
 
-**日々の積み重ね。** — Small steps, every day.
+**日々の積み重ね。**
 
-<!-- Dynamic calendar-style contribution graph (third-party service) -->
+*Small steps, every day.*
+
+<br>
+
 <a href="https://github.com/azinamouto?tab=overview">
-  <img src="https://ghchart.rshah.org/3fb950/azinamouto" alt="GitHub contribution calendar for azinamouto" width="100%" />
+  <img src="https://ghchart.rshah.org/3fb950/azinamouto" alt="GitHub Contribution Calendar" width="100%" />
 </a>
 
-<!-- Detailed commit/activity timeline -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=azinamouto&bg_color=0d1117&color=c9d1d9&line=3fb950&point=58a6ff&area=true&area_color=238636&hide_border=true&custom_title=Development%20Activity" alt="GitHub development activity timeline" width="100%" />
+<br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=azinamouto&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&icon_color=3fb950" alt="GitHub profile statistics" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azinamouto&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9" alt="Public repository language statistics" height="165" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=azinamouto&bg_color=0d1117&color=c9d1d9&line=3fb950&point=58a6ff&area=true&area_color=238636&hide_border=true&custom_title=Development%20Activity" alt="Development Activity Graph" width="100%" />
 
-<sub>Note: contribution and statistics widgets are supplied by third-party services and can be temporarily unavailable. GitHub's native contribution calendar remains available on the profile Overview tab.</sub>
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=azinamouto&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&icon_color=3fb950" alt="GitHub Statistics" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azinamouto&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9" alt="Most Used Languages" height="165" />
+
+<br><br>
+
+<sub>継続は力なり。 — Consistency is strength.</sub>
 
 </div>
 
-### `05 / 開発哲学 — principles`
+---
+
+### `05 / 開発哲学 — engineering philosophy`
 
 ```text
 [01] Build for people, not just screenshots.
+
 [02] Understand the system, not only the syntax.
+
 [03] Security and maintainability are features.
-[04] Learn in public. Improve in private. Ship with care.
+
+[04] Good architecture makes complexity manageable.
+
+[05] Experiment often. Validate assumptions.
+
+[06] Keep learning. Keep building. Keep improving.
 ```
 
-**継続は力なり。** — Consistency is strength.
+**試行錯誤。** — Trial and error.
 
-**試行錯誤。** 
+**一歩ずつ。** — One step at a time.
 
-**一歩ずつ。** 
+**初心忘るべからず。** — Never forget the beginner's mindset.
+
+**七転び八起き。** — Fall seven times, stand up eight.
+
+---
+
+### `06 / 現在の目標 — current objectives`
+
+```text
+$ cat roadmap.txt
+
+[+] Develop practical government information systems
+[+] Strengthen full-stack and backend engineering
+[+] Explore secure application architecture
+[+] Build useful open-source developer tools
+[+] Experiment with AI-assisted engineering
+[+] Grow ALZA through meaningful technology
+
+> next milestone: unknown
+> current state: building...
+```
+
+I'm interested in the intersection of **software engineering, systems architecture, security, and real-world digital transformation**.
+
+Through ALZA and my personal projects, I'm continuously exploring how technology can make workflows simpler, information more accessible, and software systems more reliable.
+
+まだ始まったばかり。
+
+*This is only the beginning.*
 
 ---
 
 <div align="center">
 
-**まだ途中。** — *Still a work in progress.*
+### まだ途中。
 
-<sub>静かに、着実に。 · quietly, steadily.</sub>
+*Still a work in progress.*
+
+**静かに、着実に。**
+
+*Quietly, steadily.*
+
+<br>
 
 `less noise. more commits.`
+
+<br>
+
+<sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
 
 </div>
