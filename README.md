@@ -1,8 +1,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=0,2,5,30&section=header&reversal=false" width="100%" alt="Profile header" />
-
 <img src="./assets/terminal.svg" alt="Animated azinamouto terminal introduction" width="100%" />
 
 ### 静かに創り、世界を変える。
@@ -170,7 +168,6 @@ Through ALZA and my personal projects, I'm continuously exploring how technology
 
 <img src="./assets/footer.svg" width="100%" alt="Animated profile footer" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0,2,5,30&section=footer&reversal=true" width="100%" alt="Closing wave" />
 
 </div>
 
