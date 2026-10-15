@@ -7,16 +7,9 @@
 
 <div align="center">
 
-### 静かに創り、世界を変える。
-
-*Build quietly. Change what matters.*
-
-**Founder & CTO @ ALZA** · **Full-Stack Engineer** · **Systems Architecture Enthusiast**
+### 静かに創り、世界を変える **Founder & CTO @ ALZA** · **Full-Stack Engineer** · **Systems Architecture Enthusiast**
 
 <sub>創設者・最高技術責任者 ｜ フルスタックエンジニア ｜ ものづくりが好き。</sub>
-
-<br>
-
 `設計` · `開発` · `セキュリティ` · `創造`
 
 </div>
