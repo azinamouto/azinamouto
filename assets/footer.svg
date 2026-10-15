@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="100%" height="140" role="img" aria-label="Neon city skyline with sakura">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120a24" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2a0f3d" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/><stop offset="0.5" stop-color="#b967ff"/><stop offset="1" stop-color="#ff2e88"/>
+    </linearGradient>
+    <filter id="g" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="140" fill="url(#sky)"/>
+  <circle cx="450" cy="90" r="60" fill="#ff2e88" opacity="0.25"/>
+  <circle cx="450" cy="90" r="40" fill="#ff2e88" opacity="0.35"/>
+  <g fill="#0b0f1a" stroke="url(#neon)" stroke-width="1.2" filter="url(#g)">
+    <rect x="30" y="80" width="40" height="60"/><rect x="75" y="60" width="30" height="80"/>
+    <rect x="110" y="90" width="50" height="50"/><rect x="165" y="45" width="34" height="95"/>
+    <rect x="205" y="75" width="45" height="65"/><rect x="255" y="100" width="35" height="40"/>
+    <rect x="295" y="55" width="40" height="85"/><rect x="340" y="85" width="50" height="55"/>
+    <rect x="395" y="70" width="30" height="70"/><rect x="430" y="35" width="40" height="105"/>
+    <rect x="475" y="80" width="45" height="60"/><rect x="525" y="55" width="32" height="85"/>
+    <rect x="562" y="95" width="48" height="45"/><rect x="615" y="65" width="36" height="75"/>
+    <rect x="656" y="40" width="40" height="100"/><rect x="701" y="85" width="50" height="55"/>
+    <rect x="756" y="60" width="32" height="80"/><rect x="793" y="90" width="45" height="50"/>
+    <rect x="843" y="70" width="30" height="70"/>
+  </g>
+  <g fill="#00f0ff">
+    <rect x="82" y="72" width="3" height="3"><animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="172" y="58" width="3" height="3"><animate attributeName="opacity" values="0;1;0" dur="2.6s" repeatCount="indefinite"/></rect>
+    <rect x="302" y="68" width="3" height="3"><animate attributeName="opacity" values="1;0;1" dur="1.7s" repeatCount="indefinite"/></rect>
+    <rect x="438" y="50" width="3" height="3"><animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/></rect>
+    <rect x="664" y="55" width="3" height="3"><animate attributeName="opacity" values="1;0;1" dur="3s" repeatCount="indefinite"/></rect>
+  </g>
+  <g fill="#ff7eb6" opacity="0.85">
+    <circle r="3"><animateMotion dur="7s" repeatCount="indefinite" path="M100 -10 C160 60 60 100 140 150"/></circle>
+    <circle r="2.5"><animateMotion dur="9s" begin="-3s" repeatCount="indefinite" path="M380 -10 C440 50 340 100 420 150"/></circle>
+    <circle r="3"><animateMotion dur="8s" begin="-5s" repeatCount="indefinite" path="M620 -10 C680 60 580 100 660 150"/></circle>
+    <circle r="2"><animateMotion dur="10s" begin="-2s" repeatCount="indefinite" path="M820 -10 C860 60 780 100 850 150"/></circle>
+  </g>
+  <rect y="136" width="900" height="2" fill="url(#neon)"/>
+</svg>
