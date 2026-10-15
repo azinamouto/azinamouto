@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140" role="img" aria-label="01 / 自己紹介 — who am i">
+  <defs>
+    <radialGradient id="wbg" cx="0.5" cy="0.6" r="0.8"><stop offset="0" stop-color="#2a0d18"/><stop offset="0.6" stop-color="#0b0610"/><stop offset="1" stop-color="#030208"/></radialGradient>
+    <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d0141f"/><stop offset="1" stop-color="#6e0a10"/></linearGradient>
+    <linearGradient id="ul" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b0121b" stop-opacity="0"/><stop offset="0.5" stop-color="#d0141f"/><stop offset="1" stop-color="#b0121b" stop-opacity="0"/></linearGradient>
+    <radialGradient id="cglow"><stop offset="0" stop-color="#ffb02e" stop-opacity="0.55"/><stop offset="1" stop-color="#ffb02e" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.8"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#000" opacity="0.45"/></pattern>
+    <clipPath id="wc"><rect x="6" y="6" width="888" height="128" rx="10"/></clipPath>
+    <g id="web"><path d="M0,0 L120.0,0.0 M0,0 L115.9,31.1 M0,0 L103.9,60.0 M0,0 L84.9,84.9 M0,0 L60.0,103.9 M0,0 L31.1,115.9 M0,0 L0.0,120.0 M14.4,0.0 Q12.3,1.6 13.9,3.7 M13.9,3.7 Q11.4,4.7 12.5,7.2 M12.5,7.2 Q9.8,7.5 10.2,10.2 M10.2,10.2 Q7.5,9.8 7.2,12.5 M7.2,12.5 Q4.7,11.4 3.7,13.9 M3.7,13.9 Q1.6,12.3 0.0,14.4 M28.8,0.0 Q24.6,3.2 27.8,7.5 M27.8,7.5 Q22.9,9.5 24.9,14.4 M24.9,14.4 Q19.6,15.1 20.4,20.4 M20.4,20.4 Q15.1,19.6 14.4,24.9 M14.4,24.9 Q9.5,22.9 7.5,27.8 M7.5,27.8 Q3.2,24.6 0.0,28.8 M44.4,0.0 Q37.9,5.0 42.9,11.5 M42.9,11.5 Q35.3,14.6 38.5,22.2 M38.5,22.2 Q30.3,23.2 31.4,31.4 M31.4,31.4 Q23.2,30.3 22.2,38.5 M22.2,38.5 Q14.6,35.3 11.5,42.9 M11.5,42.9 Q5.0,37.9 0.0,44.4 M62.4,0.0 Q53.2,7.0 60.3,16.2 M60.3,16.2 Q49.6,20.5 54.0,31.2 M54.0,31.2 Q42.6,32.7 44.1,44.1 M44.1,44.1 Q32.7,42.6 31.2,54.0 M31.2,54.0 Q20.5,49.6 16.2,60.3 M16.2,60.3 Q7.0,53.2 0.0,62.4 M81.6,0.0 Q69.6,9.2 78.8,21.1 M78.8,21.1 Q64.8,26.9 70.7,40.8 M70.7,40.8 Q55.7,42.7 57.7,57.7 M57.7,57.7 Q42.7,55.7 40.8,70.7 M40.8,70.7 Q26.9,64.8 21.1,78.8 M21.1,78.8 Q9.2,69.6 0.0,81.6 M100.8,0.0 Q85.9,11.3 97.4,26.1 M97.4,26.1 Q80.1,33.2 87.3,50.4 M87.3,50.4 Q68.8,52.8 71.3,71.3 M71.3,71.3 Q52.8,68.8 50.4,87.3 M50.4,87.3 Q33.2,80.1 26.1,97.4 M26.1,97.4 Q11.3,85.9 0.0,100.8 M120.0,0.0 Q102.3,13.5 115.9,31.1 M115.9,31.1 Q95.3,39.5 103.9,60.0 M103.9,60.0 Q81.9,62.8 84.9,84.9 M84.9,84.9 Q62.8,81.9 60.0,103.9 M60.0,103.9 Q39.5,95.3 31.1,115.9 M31.1,115.9 Q13.5,102.3 0.0,120.0" fill="none" stroke="#d7dbe6" stroke-width="1" stroke-linecap="round"/></g>
+    <g id="bat">
+      <g fill="#140c20" stroke="#4a3566" stroke-width="0.7" stroke-linejoin="round">
+        <g><animateTransform attributeName="transform" type="scale" values="1 1;1 0.3;1 1" dur="0.38s" repeatCount="indefinite"/>
+          <path d="M0,-2 C-6,-12 -17,-12 -28,-5 C-23,-3 -23,2 -19,4 C-17,1 -13,2 -11,5 C-9,2 -6,4 -3,8 L0,3 L3,8 C6,4 9,2 11,5 C13,2 17,1 19,4 C23,2 23,-3 28,-5 C17,-12 6,-12 0,-2Z"/>
+        </g>
+        <ellipse cx="0" cy="1" rx="3.6" ry="7"/>
+        <circle cx="0" cy="-5" r="3.4"/>
+        <path d="M-3,-6 L-4.5,-12 L-0.8,-8Z M3,-6 L4.5,-12 L0.8,-8Z"/>
+      </g>
+      <circle cx="-1.4" cy="-5" r="0.9" fill="#ff2a2a"/><circle cx="1.4" cy="-5" r="0.9" fill="#ff2a2a"/>
+    </g>
+    <g id="spider">
+      <g stroke="#1a1024" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-3,-2 L-9,-8 L-15,-5 M-4,0 L-11,-2 L-16,4 M-4,2 L-10,6 L-14,12 M-3,4 L-8,11 L-11,16"/>
+        <path d="M3,-2 L9,-8 L15,-5 M4,0 L11,-2 L16,4 M4,2 L10,6 L14,12 M3,4 L8,11 L11,16"/>
+      </g>
+      <ellipse cx="0" cy="6" rx="5.5" ry="7" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/>
+      <circle cx="0" cy="-3" r="3.6" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/>
+      <path d="M-1.6,4 L1.6,4 L0,6.5 L1.6,9 L-1.6,9 L0,6.5Z" fill="#c01620"/>
+      <circle cx="-1.3" cy="-4" r="0.8" fill="#ff2a2a"/><circle cx="1.3" cy="-4" r="0.8" fill="#ff2a2a"/>
+    </g>
+    <g id="skull">
+      <ellipse cx="0" cy="-2" rx="8" ry="8.5" fill="#e8e1cf"/><rect x="-4.5" y="4" width="9" height="6" rx="1.5" fill="#e8e1cf"/>
+      <ellipse cx="-3" cy="-2" rx="2.3" ry="2.8" fill="#05030a"/><ellipse cx="3" cy="-2" rx="2.3" ry="2.8" fill="#05030a"/>
+      <circle cx="-3" cy="-2" r="1" fill="#ff2a2a"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="3" cy="-2" r="1" fill="#ff2a2a"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+      <path d="M0,2 L-1.2,4.4 L1.2,4.4Z" fill="#05030a"/><path d="M-2,6.5 V10 M0,6.5 V10 M2,6.5 V10" stroke="#05030a" stroke-width="0.8"/>
+    </g>
+  </defs>
+  <rect x="6" y="6" width="888" height="128" rx="10" fill="url(#wbg)"/>
+  <g clip-path="url(#wc)">
+    <g transform="translate(104,0)"><circle cx="0" cy="62" r="58" fill="url(#cglow)"><animate attributeName="opacity" values="0.7;1;0.6;0.95;0.7" dur="1.7s" begin="0s" repeatCount="indefinite"/></circle><rect x="-10" y="74" width="20" height="46" rx="2" fill="#d9cfb8"/><path d="M-10,74 q5,10 4,18 q-1,6 3,6 q4,0 3,-8 q0,-8 4,-16Z" fill="#efe6d0"/><rect x="-14" y="120" width="28" height="6" rx="2" fill="#2a1a22"/><line x1="0" y1="74" x2="0" y2="68" stroke="#222" stroke-width="1.5"/><g transform="translate(0,70)" filter="url(#glow)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.15 0.9;0.9 1.1;1.05 0.95;1 1" dur="0.6s" begin="0s" repeatCount="indefinite"/><path d="M0,-24 C-9,-12 -8,-2 0,2 C8,-2 9,-12 0,-24Z" fill="#ff8a1f"/><path d="M0,-14 C-4,-8 -4,-2 0,0 C4,-2 4,-8 0,-14Z" fill="#fff1b8"/></g></g></g><g transform="translate(796,0)"><circle cx="0" cy="62" r="58" fill="url(#cglow)"><animate attributeName="opacity" values="0.7;1;0.6;0.95;0.7" dur="1.7s" begin="-0.3s" repeatCount="indefinite"/></circle><rect x="-10" y="74" width="20" height="46" rx="2" fill="#d9cfb8"/><path d="M-10,74 q5,10 4,18 q-1,6 3,6 q4,0 3,-8 q0,-8 4,-16Z" fill="#efe6d0"/><rect x="-14" y="120" width="28" height="6" rx="2" fill="#2a1a22"/><line x1="0" y1="74" x2="0" y2="68" stroke="#222" stroke-width="1.5"/><g transform="translate(0,70)" filter="url(#glow)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.15 0.9;0.9 1.1;1.05 0.95;1 1" dur="0.6s" begin="-0.3s" repeatCount="indefinite"/><path d="M0,-24 C-9,-12 -8,-2 0,2 C8,-2 9,-12 0,-24Z" fill="#ff8a1f"/><path d="M0,-14 C-4,-8 -4,-2 0,0 C4,-2 4,-8 0,-14Z" fill="#fff1b8"/></g></g></g>
+    <use href="#web" transform="translate(6,6)" opacity="0.5"/>
+    <use href="#web" transform="translate(894,6) scale(-1,1)" opacity="0.5"/>
+    <use href="#web" transform="translate(6,134) scale(0.7,-0.7)" opacity="0.35"/>
+    <use href="#web" transform="translate(894,134) scale(-0.7,-0.7)" opacity="0.35"/>
+    <g><rect x="260" y="6" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;26;26;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect><circle cx="262" cy="12" r="3" fill="#b0121b"><animate attributeName="cy" values="12;32;32;70;70" keyTimes="0;0.55;0.6;0.95;1" dur="7s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="7s" begin="0s" repeatCount="indefinite"/></circle></g><g><rect x="420" y="6" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;26;26;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="9s" begin="-3s" repeatCount="indefinite"/></rect><circle cx="422" cy="12" r="3" fill="#b0121b"><animate attributeName="cy" values="12;32;32;70;70" keyTimes="0;0.55;0.6;0.95;1" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="9s" begin="-3s" repeatCount="indefinite"/></circle></g><g><rect x="560" y="6" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;26;26;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="6s" begin="-5s" repeatCount="indefinite"/></rect><circle cx="562" cy="12" r="3" fill="#b0121b"><animate attributeName="cy" values="12;32;32;70;70" keyTimes="0;0.55;0.6;0.95;1" dur="6s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="6s" begin="-5s" repeatCount="indefinite"/></circle></g><g><rect x="640" y="6" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;26;26;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="10s" begin="-1s" repeatCount="indefinite"/></rect><circle cx="642" cy="12" r="3" fill="#b0121b"><animate attributeName="cy" values="12;32;32;70;70" keyTimes="0;0.55;0.6;0.95;1" dur="10s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="10s" begin="-1s" repeatCount="indefinite"/></circle></g>
+    <g opacity="1"><animateMotion dur="11s" begin="0s" repeatCount="indefinite" path="M-40,50 C200,20 380,110 560,40 C720,-10 820,60 940,30"/><use href="#bat" transform="scale(1.0)"/></g><g opacity="1"><animateMotion dur="14s" begin="-6s" repeatCount="indefinite" path="M940,110 C760,70 600,130 420,90 C260,50 120,100 -40,70"/><use href="#bat" transform="scale(0.8)"/></g><g opacity="1"><animateMotion dur="16s" begin="-9s" repeatCount="indefinite" path="M-40,120 C300,100 500,20 940,100"/><use href="#bat" transform="scale(0.6)"/></g>
+    <use href="#skull" transform="translate(186,76) scale(1.7)"/>
+    <use href="#skull" transform="translate(714,76) scale(1.7)"/>
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,'Noto Sans JP',monospace">
+      <text x="450" y="84" text-anchor="middle" font-size="30" font-weight="800" fill="#b0121b" opacity="0"><animate attributeName="opacity" values="0;0;0.8;0;0.55;0;0" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="7s" repeatCount="indefinite"/><animate attributeName="x" values="450;450;455;445;452;450;450" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="7s" repeatCount="indefinite"/>01 / 自己紹介 — who am i</text>
+      <text x="450" y="84" text-anchor="middle" font-size="30" font-weight="800" fill="#5dff7a" opacity="0"><animate attributeName="opacity" values="0;0;0.8;0;0.55;0;0" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="7s" repeatCount="indefinite"/><animate attributeName="x" values="450;450;445;455;447;450;450" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="7s" repeatCount="indefinite"/>01 / 自己紹介 — who am i</text>
+      <text x="450" y="84" text-anchor="middle" font-size="30" font-weight="800" fill="#f1ead8" filter="url(#glow)">01 / 自己紹介 — who am i</text>
+    </g>
+    <rect x="220" y="100" width="460" height="2" fill="url(#ul)"/>
+    <g><line x1="850" y1="6" x2="850" y2="30" stroke="#d7dbe6" stroke-opacity="0.65" stroke-width="0.9"><animate attributeName="y2" values="30;66;30" dur="8s" begin="0s" repeatCount="indefinite"/></line><g><animateTransform attributeName="transform" type="translate" values="850,43;850,79;850,43" dur="8s" begin="0s" repeatCount="indefinite"/><use href="#spider" transform="rotate(180)"/></g></g>
+    <rect x="6" y="6" width="888" height="128" fill="url(#scan)" opacity="0.3"/>
+    <rect x="6" y="6" width="888" height="128" fill="url(#vig)"/>
+  </g>
+  <rect x="6" y="6" width="888" height="128" rx="10" fill="none" stroke="#1a0a10" stroke-width="4"/>
+  <rect x="6" y="6" width="888" height="128" rx="10" fill="none" stroke="#b0121b" stroke-width="1.3"><animate attributeName="stroke-opacity" values="1;0.3;1;0.6;0.15;1" dur="5s" repeatCount="indefinite"/></rect>
+</svg>

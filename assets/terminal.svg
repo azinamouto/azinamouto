@@ -1,415 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Animated azinamouto terminal introduction">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Animated azinamouto terminal introduction">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1a0f4a"/>
-      <stop offset="0.55" stop-color="#4a2288"/>
-      <stop offset="1" stop-color="#d0509f"/>
-    </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00f0ff"/>
-      <stop offset="0.5" stop-color="#b967ff"/>
-      <stop offset="1" stop-color="#ff2e88"/>
-    </linearGradient>
-    <linearGradient id="hairG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff5fb0"/>
-      <stop offset="0.65" stop-color="#c46bff"/>
-      <stop offset="1" stop-color="#5ee7ff"/>
-    </linearGradient>
-    <linearGradient id="irisG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#8be9ff"/>
-      <stop offset="1" stop-color="#6a4cff"/>
-    </linearGradient>
-    <linearGradient id="xpG" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffd54a"/><stop offset="1" stop-color="#ff5fb0"/>
-    </linearGradient>
-    <linearGradient id="barHead" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2a1d66"/><stop offset="1" stop-color="#3d1d6e"/>
-    </linearGradient>
-    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ffe0b8" stop-opacity="0.65"/>
-      <stop offset="0.55" stop-color="#ff9a3c" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#ff9a3c" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="9" cy="9" r="1.2" fill="#fff" opacity="0.07"/>
-    </pattern>
-    <clipPath id="win"><rect x="10" y="10" width="880" height="400" rx="18"/></clipPath>
-
-    <path id="heart" d="M0,6 C-12,-4 -8,-14 0,-8 C8,-14 12,-4 0,6Z"/>
-    <polygon id="star" points="0,-10 3,-3 10,-3 4.5,2 6.5,9 0,5 -6.5,9 -4.5,2 -10,-3 -3,-3"/>
-    <path id="spark" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10Z"/>
-
-    <clipPath id="c1"><rect x="48" y="120" width="0" height="24"><animate attributeName="width" values="0;120;120;0" keyTimes="0;0.05;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c2"><rect x="48" y="146" width="0" height="24"><animate attributeName="width" values="0;0;420;420;0" keyTimes="0;0.06;0.16;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c3"><rect x="48" y="176" width="0" height="24"><animate attributeName="width" values="0;0;190;190;0" keyTimes="0;0.2;0.25;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c4"><rect x="48" y="204" width="0" height="32"><animate attributeName="width" values="0;0;390;390;0" keyTimes="0;0.26;0.38;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c5"><rect x="48" y="238" width="0" height="24"><animate attributeName="width" values="0;0;170;170;0" keyTimes="0;0.4;0.45;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c6"><rect x="48" y="266" width="0" height="26"><animate attributeName="width" values="0;0;420;420;0" keyTimes="0;0.46;0.58;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
-  
-    <linearGradient id="hairP" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffb8de"/><stop offset="1" stop-color="#ff72b8"/>
-    </linearGradient>
-    <linearGradient id="hairGn" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a6ee8e"/><stop offset="1" stop-color="#4fd0a0"/>
-    </linearGradient>
-    <linearGradient id="irisH" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffa6ff"/><stop offset="1" stop-color="#8a3cff"/>
-    </linearGradient>
-    <g id="pumpkin">
-      <ellipse cx="-4" cy="0" rx="6" ry="7.5" fill="#ff8a1f"/><ellipse cx="4" cy="0" rx="6" ry="7.5" fill="#ff8a1f"/>
-      <ellipse cx="0" cy="0" rx="5" ry="8" fill="#ffa23d"/>
-      <rect x="-1.2" y="-12" width="2.4" height="4.5" rx="1" fill="#4caf50"/>
-      <polygon points="-5,-2 -2,-2 -3.5,1.5" fill="#3a1d6e"/><polygon points="5,-2 2,-2 3.5,1.5" fill="#3a1d6e"/>
-      <path d="M-4,4 Q0,7.5 4,4" stroke="#3a1d6e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <radialGradient id="bg" cx="0.72" cy="0.38" r="0.85"><stop offset="0" stop-color="#241238"/><stop offset="0.55" stop-color="#0a0612"/><stop offset="1" stop-color="#020104"/></radialGradient>
+    <radialGradient id="moon" cx="0.4" cy="0.38" r="0.7"><stop offset="0" stop-color="#f6f7df"/><stop offset="0.6" stop-color="#cdd5a8"/><stop offset="1" stop-color="#8e9873"/></radialGradient>
+    <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d0141f"/><stop offset="1" stop-color="#6e0a10"/></linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+    <radialGradient id="glass" cx="0.35" cy="0.5" r="0.8"><stop offset="0" stop-color="#0f1a12"/><stop offset="1" stop-color="#05030a"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowBig" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="fog" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#000" opacity="0.45"/></pattern>
+    <pattern id="fence" width="12" height="36" patternUnits="userSpaceOnUse"><path d="M6,36 V8 M3,12 L6,4 L9,12Z" stroke="#0b0712" fill="#0b0712" stroke-width="2"/><rect y="22" width="12" height="2" fill="#0b0712"/></pattern>
+    <clipPath id="win"><rect x="10" y="10" width="880" height="400" rx="10"/></clipPath>
+    <clipPath id="c1"><rect x="54" y="84" width="0" height="26"><animate attributeName="width" values="0;0;150;150;0" keyTimes="0;0.02;0.08;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="54" y="112" width="0" height="26"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.09;0.18;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="54" y="152" width="0" height="26"><animate attributeName="width" values="0;0;220;220;0" keyTimes="0;0.22;0.28;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="54" y="184" width="0" height="36"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.29;0.42;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="54" y="230" width="0" height="26"><animate attributeName="width" values="0;0;200;200;0" keyTimes="0;0.46;0.51;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="54" y="258" width="0" height="26"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;0.52;0.64;0.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <g id="web"><path d="M0,0 L170.0,0.0 M0,0 L164.2,44.0 M0,0 L147.2,85.0 M0,0 L120.2,120.2 M0,0 L85.0,147.2 M0,0 L44.0,164.2 M0,0 L0.0,170.0 M20.4,0.0 Q17.4,2.3 19.7,5.3 M19.7,5.3 Q16.2,6.7 17.7,10.2 M17.7,10.2 Q13.9,10.7 14.4,14.4 M14.4,14.4 Q10.7,13.9 10.2,17.7 M10.2,17.7 Q6.7,16.2 5.3,19.7 M5.3,19.7 Q2.3,17.4 0.0,20.4 M40.8,0.0 Q34.8,4.6 39.4,10.6 M39.4,10.6 Q32.4,13.4 35.3,20.4 M35.3,20.4 Q27.8,21.4 28.8,28.8 M28.8,28.8 Q21.4,27.8 20.4,35.3 M20.4,35.3 Q13.4,32.4 10.6,39.4 M10.6,39.4 Q4.6,34.8 0.0,40.8 M62.9,0.0 Q53.6,7.1 60.8,16.3 M60.8,16.3 Q50.0,20.7 54.5,31.4 M54.5,31.4 Q42.9,32.9 44.5,44.5 M44.5,44.5 Q32.9,42.9 31.5,54.5 M31.5,54.5 Q20.7,50.0 16.3,60.8 M16.3,60.8 Q7.1,53.6 0.0,62.9 M88.4,0.0 Q75.4,9.9 85.4,22.9 M85.4,22.9 Q70.2,29.1 76.6,44.2 M76.6,44.2 Q60.3,46.3 62.5,62.5 M62.5,62.5 Q46.3,60.3 44.2,76.6 M44.2,76.6 Q29.1,70.2 22.9,85.4 M22.9,85.4 Q9.9,75.4 0.0,88.4 M115.6,0.0 Q98.6,13.0 111.7,29.9 M111.7,29.9 Q91.8,38.0 100.1,57.8 M100.1,57.8 Q78.9,60.5 81.7,81.7 M81.7,81.7 Q60.5,78.9 57.8,100.1 M57.8,100.1 Q38.0,91.8 29.9,111.7 M29.9,111.7 Q13.0,98.6 0.0,115.6 M142.8,0.0 Q121.8,16.0 137.9,37.0 M137.9,37.0 Q113.5,47.0 123.7,71.4 M123.7,71.4 Q97.4,74.8 101.0,101.0 M101.0,101.0 Q74.8,97.4 71.4,123.7 M71.4,123.7 Q47.0,113.5 37.0,137.9 M37.0,137.9 Q16.0,121.8 0.0,142.8 M170.0,0.0 Q144.9,19.1 164.2,44.0 M164.2,44.0 Q135.1,55.9 147.2,85.0 M147.2,85.0 Q116.0,89.0 120.2,120.2 M120.2,120.2 Q89.0,116.0 85.0,147.2 M85.0,147.2 Q55.9,135.1 44.0,164.2 M44.0,164.2 Q19.1,144.9 0.0,170.0" fill="none" stroke="#d7dbe6" stroke-width="1" stroke-linecap="round"/></g>
+    <g id="bat">
+      <g fill="#140c20" stroke="#4a3566" stroke-width="0.7" stroke-linejoin="round">
+        <g><animateTransform attributeName="transform" type="scale" values="1 1;1 0.3;1 1" dur="0.38s" repeatCount="indefinite"/>
+          <path d="M0,-2 C-6,-12 -17,-12 -28,-5 C-23,-3 -23,2 -19,4 C-17,1 -13,2 -11,5 C-9,2 -6,4 -3,8 L0,3 L3,8 C6,4 9,2 11,5 C13,2 17,1 19,4 C23,2 23,-3 28,-5 C17,-12 6,-12 0,-2Z"/>
+        </g>
+        <ellipse cx="0" cy="1" rx="3.6" ry="7"/>
+        <circle cx="0" cy="-5" r="3.4"/>
+        <path d="M-3,-6 L-4.5,-12 L-0.8,-8Z M3,-6 L4.5,-12 L0.8,-8Z"/>
+      </g>
+      <circle cx="-1.4" cy="-5" r="0.9" fill="#ff2a2a"/><circle cx="1.4" cy="-5" r="0.9" fill="#ff2a2a"/>
     </g>
-    <g id="ghost">
-      <path d="M-7,8 V-2 C-7,-14 7,-14 7,-2 V8 L3.5,4.5 L0,8 L-3.5,4.5 Z" fill="#fff"/>
-      <circle cx="-2.5" cy="-3" r="1.4" fill="#3a1d6e"/><circle cx="2.5" cy="-3" r="1.4" fill="#3a1d6e"/>
-      <ellipse cx="0" cy="1" rx="1.5" ry="1.8" fill="#3a1d6e"/>
+    <g id="spider">
+      <g stroke="#1a1024" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-3,-2 L-9,-8 L-15,-5 M-4,0 L-11,-2 L-16,4 M-4,2 L-10,6 L-14,12 M-3,4 L-8,11 L-11,16"/>
+        <path d="M3,-2 L9,-8 L15,-5 M4,0 L11,-2 L16,4 M4,2 L10,6 L14,12 M3,4 L8,11 L11,16"/>
+      </g>
+      <ellipse cx="0" cy="6" rx="5.5" ry="7" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/>
+      <circle cx="0" cy="-3" r="3.6" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/>
+      <path d="M-1.6,4 L1.6,4 L0,6.5 L1.6,9 L-1.6,9 L0,6.5Z" fill="#c01620"/>
+      <circle cx="-1.3" cy="-4" r="0.8" fill="#ff2a2a"/><circle cx="1.3" cy="-4" r="0.8" fill="#ff2a2a"/>
     </g>
-    <path id="bat" d="M0,0 C-4,-4 -10,-4 -16,-1 C-12,0 -12,4 -8,4 C-6,2 -4,3 -2,5 L0,2 L2,5 C4,3 6,2 8,4 C12,4 12,0 16,-1 C10,-4 4,-4 0,0Z" fill="#1b1530"/>
+    <g id="skull">
+      <ellipse cx="0" cy="-2" rx="8" ry="8.5" fill="#e8e1cf"/><rect x="-4.5" y="4" width="9" height="6" rx="1.5" fill="#e8e1cf"/>
+      <ellipse cx="-3" cy="-2" rx="2.3" ry="2.8" fill="#05030a"/><ellipse cx="3" cy="-2" rx="2.3" ry="2.8" fill="#05030a"/>
+      <circle cx="-3" cy="-2" r="1" fill="#ff2a2a"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="3" cy="-2" r="1" fill="#ff2a2a"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+      <path d="M0,2 L-1.2,4.4 L1.2,4.4Z" fill="#05030a"/><path d="M-2,6.5 V10 M0,6.5 V10 M2,6.5 V10" stroke="#05030a" stroke-width="0.8"/>
+    </g>
   </defs>
 
-  <!-- ============ BACKGROUND ============ -->
-  <rect x="10" y="10" width="880" height="400" rx="18" fill="url(#sky)"/>
+  <rect x="10" y="10" width="880" height="400" rx="10" fill="url(#bg)"/>
   <g clip-path="url(#win)">
-    <rect x="10" y="10" width="880" height="400" fill="url(#dots)"/>
 
-    <!-- twinkle stars -->
-    <g fill="#fff">
-      <circle cx="120" cy="80" r="1.6"><animate attributeName="opacity" values="1;0.1;1" dur="2.1s" repeatCount="indefinite"/></circle>
-      <circle cx="260" cy="70" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.7s" repeatCount="indefinite"/></circle>
-      <circle cx="400" cy="85" r="1.8"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
-      <circle cx="540" cy="72" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/></circle>
-      <circle cx="590" cy="150" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="1.9s" repeatCount="indefinite"/></circle>
-      <circle cx="540" cy="300" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
-      <circle cx="880" cy="120" r="1.6"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
-      <circle cx="860" cy="300" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
+    <!-- ===== moon + drifting cloud streaks ===== -->
+    <circle cx="735" cy="160" r="112" fill="#cfd8a8" opacity="0.10" filter="url(#glowBig)"><animate attributeName="opacity" values="0.08;0.15;0.08" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="735" cy="160" r="66" fill="url(#moon)"/>
+    <g fill="#8e9873" opacity="0.55"><circle cx="716" cy="142" r="9"/><circle cx="752" cy="176" r="12"/><circle cx="748" cy="136" r="5"/><circle cx="722" cy="184" r="6"/></g>
+    <g fill="#06040b" opacity="0.6">
+      <ellipse cx="735" cy="150" rx="90" ry="6"><animateTransform attributeName="transform" type="translate" values="-130,0;150,0" dur="26s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="735" cy="182" rx="70" ry="4"><animateTransform attributeName="transform" type="translate" values="150,0;-130,0" dur="34s" begin="-12s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="735" cy="122" rx="60" ry="4"><animateTransform attributeName="transform" type="translate" values="-130,0;150,0" dur="40s" begin="-20s" repeatCount="indefinite"/></ellipse>
     </g>
 
-    <!-- drifting clouds -->
-    <g fill="#fff" opacity="0.1">
-      <g><circle cx="0" cy="330" r="14"/><circle cx="18" cy="322" r="18"/><circle cx="40" cy="330" r="14"/><rect x="0" y="330" width="40" height="14" rx="7"/>
-        <animateTransform attributeName="transform" type="translate" values="-60,0;960,0" dur="40s" repeatCount="indefinite"/></g>
-      <g><circle cx="0" cy="100" r="10"/><circle cx="14" cy="94" r="14"/><circle cx="32" cy="100" r="10"/><rect x="0" y="100" width="32" height="10" rx="5"/>
-        <animateTransform attributeName="transform" type="translate" values="-60,0;960,0" dur="55s" begin="-20s" repeatCount="indefinite"/></g>
+    <!-- ===== big webs (right side) ===== -->
+    <use href="#web" transform="translate(890,10) scale(-1.35,1.35)" opacity="0.5"/>
+    <use href="#web" transform="translate(890,410) scale(-0.9,-0.9)" opacity="0.4"/>
+    <g><line x1="800" y1="10" x2="800" y2="60" stroke="#d7dbe6" stroke-opacity="0.65" stroke-width="0.9"><animate attributeName="y2" values="60;130;60" dur="9s" begin="0s" repeatCount="indefinite"/></line><g><animateTransform attributeName="transform" type="translate" values="800,73;800,143;800,73" dur="9s" begin="0s" repeatCount="indefinite"/><use href="#spider" transform="rotate(180)"/></g></g><g><line x1="692" y1="10" x2="692" y2="40" stroke="#d7dbe6" stroke-opacity="0.65" stroke-width="0.9"><animate attributeName="y2" values="40;80;40" dur="7s" begin="-3s" repeatCount="indefinite"/></line><g><animateTransform attributeName="transform" type="translate" values="692,53;692,93;692,53" dur="7s" begin="-3s" repeatCount="indefinite"/><use href="#spider" transform="rotate(180)"/></g></g>
+
+    <!-- ===== roosting bats ===== -->
+    <g transform="translate(610,8)"><g><animateTransform attributeName="transform" type="rotate" values="-3 0 0;3 0 0;-3 0 0" dur="4s" repeatCount="indefinite"/><line x1="0" y1="0" x2="0" y2="6" stroke="#4a3566" stroke-width="1.5"/><ellipse cx="0" cy="17" rx="6.5" ry="11" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/><path d="M-6,11 C-15,19 -11,32 0,30 C-4,24 -6,18 -6,11Z M6,11 C15,19 11,32 0,30 C4,24 6,18 6,11Z" fill="#0a060f" stroke="#4a3566" stroke-width="0.7"/><circle cx="0" cy="29" r="4" fill="#140c20"/><path d="M-3,27 L-5,33 L-1,30Z M3,27 L5,33 L1,30Z" fill="#140c20"/><circle cx="-1.5" cy="29" r="0.9" fill="#ff2a2a"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.8;0.84;0.88;1" dur="5s" repeatCount="indefinite"/></circle><circle cx="1.5" cy="29" r="0.9" fill="#ff2a2a"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.8;0.84;0.88;1" dur="5s" repeatCount="indefinite"/></circle></g></g><g transform="translate(648,8)"><g><animateTransform attributeName="transform" type="rotate" values="-3 0 0;3 0 0;-3 0 0" dur="5s" repeatCount="indefinite"/><line x1="0" y1="0" x2="0" y2="6" stroke="#4a3566" stroke-width="1.5"/><ellipse cx="0" cy="17" rx="6.5" ry="11" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/><path d="M-6,11 C-15,19 -11,32 0,30 C-4,24 -6,18 -6,11Z M6,11 C15,19 11,32 0,30 C4,24 6,18 6,11Z" fill="#0a060f" stroke="#4a3566" stroke-width="0.7"/><circle cx="0" cy="29" r="4" fill="#140c20"/><path d="M-3,27 L-5,33 L-1,30Z M3,27 L5,33 L1,30Z" fill="#140c20"/><circle cx="-1.5" cy="29" r="0.9" fill="#ff2a2a"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.8;0.84;0.88;1" dur="5s" repeatCount="indefinite"/></circle><circle cx="1.5" cy="29" r="0.9" fill="#ff2a2a"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.8;0.84;0.88;1" dur="5s" repeatCount="indefinite"/></circle></g></g><g transform="translate(706,8)"><g><animateTransform attributeName="transform" type="rotate" values="-3 0 0;3 0 0;-3 0 0" dur="6s" repeatCount="indefinite"/><line x1="0" y1="0" x2="0" y2="6" stroke="#4a3566" stroke-width="1.5"/><ellipse cx="0" cy="17" rx="6.5" ry="11" fill="#140c20" stroke="#4a3566" stroke-width="0.7"/><path d="M-6,11 C-15,19 -11,32 0,30 C-4,24 -6,18 -6,11Z M6,11 C15,19 11,32 0,30 C4,24 6,18 6,11Z" fill="#0a060f" stroke="#4a3566" stroke-width="0.7"/><circle cx="0" cy="29" r="4" fill="#140c20"/><path d="M-3,27 L-5,33 L-1,30Z M3,27 L5,33 L1,30Z" fill="#140c20"/><circle cx="-1.5" cy="29" r="0.9" fill="#ff2a2a"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.8;0.84;0.88;1" dur="5s" repeatCount="indefinite"/></circle><circle cx="1.5" cy="29" r="0.9" fill="#ff2a2a"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.8;0.84;0.88;1" dur="5s" repeatCount="indefinite"/></circle></g></g>
+
+    <!-- ===== fence, hill, tombstones, fog ===== -->
+    <rect x="10" y="336" width="880" height="36" fill="url(#fence)" opacity="0.9"/>
+    <path d="M10,384 C120,366 240,380 360,372 C480,364 600,380 720,370 C800,364 850,374 890,368 L890,410 L10,410Z" fill="#030106"/>
+    <g fill="#030106" stroke="#030106">
+      <path d="M70,376 V356 a9,9 0 0 1 18,0 V376Z" stroke="none"/>
+      <path d="M150,380 V352 M141,360 H159" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M600,378 V358 a9,9 0 0 1 18,0 V378Z" stroke="none"/>
+      <path d="M668,378 V350 M659,358 H677" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M770,376 V356 a9,9 0 0 1 18,0 V376Z" stroke="none"/>
+      <path d="M850,376 V362 L858,356 L866,362 V376Z" stroke="none"/>
+    </g>
+    <g filter="url(#fog)">
+      <ellipse cx="120" cy="392" rx="170" ry="22" fill="#9aa7b8" opacity="0.12"><animateTransform attributeName="transform" type="translate" values="-30,0;30,0;-30,0" dur="16s" begin="0s" repeatCount="indefinite"/></ellipse><ellipse cx="380" cy="398" rx="190" ry="20" fill="#9aa7b8" opacity="0.12"><animateTransform attributeName="transform" type="translate" values="-40,0;40,0;-40,0" dur="22s" begin="-6s" repeatCount="indefinite"/></ellipse><ellipse cx="650" cy="392" rx="180" ry="22" fill="#9aa7b8" opacity="0.12"><animateTransform attributeName="transform" type="translate" values="-30,0;30,0;-30,0" dur="19s" begin="-3s" repeatCount="indefinite"/></ellipse><ellipse cx="840" cy="396" rx="120" ry="20" fill="#9aa7b8" opacity="0.12"><animateTransform attributeName="transform" type="translate" values="-24,0;24,0;-24,0" dur="14s" begin="-9s" repeatCount="indefinite"/></ellipse>
     </g>
 
-    <!-- aura + magic ring behind the girl -->
-    <circle cx="715" cy="205" r="170" fill="url(#aura)">
-      <animate attributeName="r" values="160;178;160" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <g transform="translate(715 205)" filter="url(#glow)" fill="none">
-      <circle r="140" stroke="#fff" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="6 12">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="118" stroke="#00f0ff" stroke-opacity="0.8" stroke-width="2" stroke-dasharray="30 10 4 10">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
-      </circle>
-      <g stroke="#ffd54a" stroke-width="1.6" stroke-opacity="0.85">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/>
-        <polygon points="0,-130 112.6,65 -112.6,65"/>
-        <polygon points="0,130 112.6,-65 -112.6,-65"/>
-      </g>
-    </g>
-
-    <!-- orbiting spooky cuties -->
-    <g transform="translate(715 205)">
-      <use href="#pumpkin" transform="scale(1.5)"><animateMotion dur="9s" repeatCount="indefinite" path="M0,-125 A150,125 0 1 1 0,125 A150,125 0 1 1 0,-125"/></use>
-      <use href="#ghost" transform="scale(1.5)"><animateMotion dur="11s" begin="-4s" repeatCount="indefinite" path="M0,-125 A150,125 0 1 0 0,125 A150,125 0 1 0 0,-125"/></use>
-      <use href="#star" fill="#ffd54a" transform="scale(1.2)"><animateMotion dur="7s" begin="-2s" repeatCount="indefinite" path="M0,-95 A120,95 0 1 1 0,95 A120,95 0 1 1 0,-95"/></use>
-      <use href="#bat" transform="scale(1.3)"><animateMotion dur="13s" begin="-7s" repeatCount="indefinite" path="M0,-95 A120,95 0 1 0 0,95 A120,95 0 1 0 0,-95"/><animateTransform attributeName="transform" type="scale" values="1.3 1.3;1.3 0.5;1.3 1.3" dur="0.4s" repeatCount="indefinite"/></use>
-    </g>
-
-    <!-- floating sparkles -->
-    <g>
-      <g transform="translate(580 120)"><use href="#spark" fill="#fff"><animateTransform attributeName="transform" type="scale" values="0.2;1.2;0.2" dur="2.4s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(870 210)"><use href="#spark" fill="#ffd54a"><animateTransform attributeName="transform" type="scale" values="1.1;0.2;1.1" dur="2s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(560 260)"><use href="#spark" fill="#8be9ff"><animateTransform attributeName="transform" type="scale" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></use></g>
-      <g transform="translate(850 100)"><use href="#spark" fill="#ff9ad0"><animateTransform attributeName="transform" type="scale" values="0.2;1.3;0.2" dur="2.8s" repeatCount="indefinite"/></use></g>
-    </g>
-
-    <!-- rising hearts -->
-    <g opacity="0.9">
-      <use href="#heart" fill="#ff8fc8" transform="scale(1.1)"><animateMotion dur="6s" repeatCount="indefinite" path="M620,330 C640,260 600,200 630,120"/><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></use>
-      <use href="#heart" fill="#fff" transform="scale(0.9)"><animateMotion dur="7s" begin="-3s" repeatCount="indefinite" path="M820,330 C800,260 840,200 810,120"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="-3s" repeatCount="indefinite"/></use>
-    </g>
-
-    <!-- ============ HUD ============ -->
-    <rect x="30" y="18" width="840" height="44" rx="12" fill="#14103a" fill-opacity="0.85" stroke="url(#neon)" stroke-width="1.5"/>
-    <circle cx="56" cy="40" r="16" fill="#ff6fb5" stroke="#fff" stroke-width="2"/>
-    <use href="#heart" x="56" y="41" fill="#fff"><animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="0.9s" repeatCount="indefinite" additive="sum"/></use>
-    <text x="82" y="46" font-family="'JetBrains Mono',Consolas,monospace" font-size="15" font-weight="800" fill="#ffd54a">LV.99</text>
-
-    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10" font-weight="700">
-      <text x="152" y="35" fill="#ff8fab">HP</text>
-      <rect x="172" y="27" width="150" height="9" rx="4.5" fill="#2a2060"/>
-      <rect x="172" y="27" width="150" height="9" rx="4.5" fill="#ff4f9a"><animate attributeName="width" values="150;118;150" dur="4s" repeatCount="indefinite"/></rect>
-      <text x="152" y="53" fill="#7df3ff">MP</text>
-      <rect x="172" y="45" width="150" height="9" rx="4.5" fill="#2a2060"/>
-      <rect x="172" y="45" width="150" height="9" rx="4.5" fill="#00e5ff"><animate attributeName="width" values="90;150;90" dur="5s" repeatCount="indefinite"/></rect>
-      <text x="350" y="45" fill="#ffd54a" font-size="11">XP</text>
-      <rect x="372" y="33" width="250" height="14" rx="7" fill="#2a2060"/>
-      <rect x="372" y="33" width="250" height="14" rx="7" fill="url(#xpG)"><animate attributeName="width" values="20;250;250;20" keyTimes="0;0.8;0.95;1" dur="8s" repeatCount="indefinite"/></rect>
-    </g>
-    <g fill="#ff4f9a">
-      <use href="#heart" x="652" y="40" transform="scale(1)"><animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="1s" repeatCount="indefinite" additive="sum"/></use>
-      <use href="#heart" x="680" y="40"><animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="1s" begin="0.2s" repeatCount="indefinite" additive="sum"/></use>
-      <use href="#heart" x="708" y="40"><animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="1s" begin="0.4s" repeatCount="indefinite" additive="sum"/></use>
-    </g>
-    <ellipse cx="790" cy="40" rx="9" ry="9" fill="#ffd54a" stroke="#ffb300" stroke-width="2"><animate attributeName="rx" values="9;1.5;9" dur="1.4s" repeatCount="indefinite"/></ellipse>
-    <text x="808" y="46" font-family="'JetBrains Mono',Consolas,monospace" font-size="14" font-weight="800" fill="#fff">×999</text>
-
-    <!-- ============ QUEST LOG TERMINAL ============ -->
-    <rect x="30" y="80" width="470" height="220" rx="14" fill="#120c36" fill-opacity="0.88" stroke="url(#neon)" stroke-width="2"/>
-    <path d="M30 94 a14 14 0 0 1 14 -14 H486 a14 14 0 0 1 14 14 V108 H30 Z" fill="url(#barHead)"/>
-    <circle cx="52" cy="94" r="5" fill="#ff6fb5"/><circle cx="70" cy="94" r="5" fill="#ffd54a"/><circle cx="88" cy="94" r="5" fill="#5ee7ff"/>
-    <text x="265" y="98" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#c8b8ff">azinamouto@alza:~</text>
+    <!-- ===== haunted terminal window ===== -->
+    <rect x="30" y="34" width="520" height="296" rx="6" fill="none" stroke="#b0121b" stroke-width="3" opacity="0.35" filter="url(#glowBig)"><animate attributeName="opacity" values="0.35;0.15;0.4;0.1;0.35" dur="4.3s" repeatCount="indefinite"/></rect>
+    <rect x="30" y="34" width="520" height="296" rx="6" fill="url(#glass)" fill-opacity="0.94"/>
+    <ellipse cx="260" cy="190" rx="230" ry="120" fill="#5dff7a" opacity="0.04"/>
+    <path d="M30,40 a6,6 0 0 1 6,-6 H544 a6,6 0 0 1 6,6 V64 H30Z" fill="#10080f"/>
+    <rect x="30" y="63" width="520" height="1.5" fill="#b0121b" opacity="0.7"/>
+    <use href="#skull" transform="translate(54,49) scale(0.9)"/>
+    <text x="290" y="54" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13" fill="#8a8498">azinamouto@alza:~</text>
+    <g stroke="#b0121b" stroke-width="2" stroke-linecap="round"><path d="M500,43 l8,8 M508,43 l-8,8"/><path d="M518,43 l8,8 M526,43 l-8,8"/></g>
 
     <g font-family="'JetBrains Mono','Fira Code',Consolas,'Noto Sans JP',monospace" font-size="17">
-      <g clip-path="url(#c1)"><text x="48" y="138"><tspan fill="#ff6fb5">♥</tspan><tspan fill="#8be9ff"> $ whoami</tspan></text></g>
-      <g clip-path="url(#c2)" filter="url(#glow)"><text x="48" y="164" fill="#fff" font-weight="700">azinamouto — Founder &amp; CTO @ ALZA</text></g>
-      <g clip-path="url(#c3)"><text x="48" y="194"><tspan fill="#ff6fb5">♥</tspan><tspan fill="#8be9ff"> $ cat creed.txt</tspan></text></g>
-      <g clip-path="url(#c4)" filter="url(#glow)"><text x="48" y="228" font-size="22" font-weight="800" fill="#ffd54a">静かに創り、世界を変える。</text></g>
-      <g clip-path="url(#c5)"><text x="48" y="256"><tspan fill="#ff6fb5">♥</tspan><tspan fill="#8be9ff"> $ ls ./stack</tspan></text></g>
-      <g clip-path="url(#c6)"><text x="48" y="284" fill="#d7a8ff" font-weight="700">設計  ·  開発  ·  セキュリティ  ·  創造</text></g>
-    </g>
-    <path d="M474 280 l12 0 l-6 10 Z" fill="#ff6fb5"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0;0,3;0,0" dur="0.9s" repeatCount="indefinite"/></path>
-
-    <!-- coin pickups -->
-    <g fill="#ffd54a" stroke="#ffb300" stroke-width="2">
-      <ellipse cx="170" cy="322" rx="8" ry="9"><animate attributeName="rx" values="8;1.5;8" dur="1.2s" repeatCount="indefinite"/></ellipse>
-      <ellipse cx="290" cy="322" rx="8" ry="9"><animate attributeName="rx" values="8;1.5;8" dur="1.2s" begin="0.3s" repeatCount="indefinite"/></ellipse>
-      <ellipse cx="410" cy="322" rx="8" ry="9"><animate attributeName="rx" values="8;1.5;8" dur="1.2s" begin="0.6s" repeatCount="indefinite"/></ellipse>
-      <ellipse cx="530" cy="322" rx="8" ry="9"><animate attributeName="rx" values="8;1.5;8" dur="1.2s" begin="0.9s" repeatCount="indefinite"/></ellipse>
-    </g>
-
-    <!-- ============ GAME BOARD TILES ============ -->
-    <g>
-      <!-- tile i: x = 30 + 94i -->
-      <g>
-        <rect x="30" y="364" width="84" height="14" rx="5" fill="#a13a7a"/><rect x="30" y="352" width="84" height="22" rx="6" fill="#ff6fb5"/>
-        <rect x="30" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="0s" repeatCount="indefinite"/></rect>
-        <use href="#star" x="72" y="363" fill="#fff"/>
+      <g clip-path="url(#c1)"><text x="54" y="102"><tspan fill="#b0121b" font-weight="800">#</tspan><tspan fill="#5dff7a"> whoami</tspan></text></g>
+      <g clip-path="url(#c2)" filter="url(#glow)"><text x="54" y="130" fill="#e8e1cf" font-weight="700">azinamouto — Founder &amp; CTO @ ALZA</text></g>
+      <g clip-path="url(#c3)"><text x="54" y="170"><tspan fill="#b0121b" font-weight="800">#</tspan><tspan fill="#5dff7a"> cat creed.txt</tspan></text></g>
+      <g clip-path="url(#c4)" font-family="'Noto Sans JP','Yu Gothic',sans-serif">
+        <text x="54" y="208" font-size="24" font-weight="800" fill="#b0121b" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0.6;0;0" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="8s" repeatCount="indefinite"/><animate attributeName="x" values="54;54;59;49;56;54;54" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="8s" repeatCount="indefinite"/>静かに創り、世界を変える。</text>
+        <text x="54" y="208" font-size="24" font-weight="800" fill="#5dff7a" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0.6;0;0" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="8s" repeatCount="indefinite"/><animate attributeName="x" values="54;54;49;59;51;54;54" keyTimes="0;0.7;0.71;0.73;0.75;0.77;1" dur="8s" repeatCount="indefinite"/>静かに創り、世界を変える。</text>
+        <text x="54" y="208" font-size="24" font-weight="800" fill="#f1ead8" filter="url(#glow)">静かに創り、世界を変える。</text>
       </g>
-      <g>
-        <rect x="124" y="364" width="84" height="14" rx="5" fill="#2a8aa8"/><rect x="124" y="352" width="84" height="22" rx="6" fill="#5ee7ff"/>
-        <rect x="124" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></rect>
-        <use href="#heart" x="166" y="363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="218" y="364" width="84" height="14" rx="5" fill="#b08a10"/><rect x="218" y="352" width="84" height="22" rx="6" fill="#ffd54a"/>
-        <rect x="218" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="1s" repeatCount="indefinite"/></rect>
-        <polygon points="260,354 268,363 260,372 252,363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="312" y="364" width="84" height="14" rx="5" fill="#6a3fb0"/><rect x="312" y="352" width="84" height="22" rx="6" fill="#b98cff"/>
-        <rect x="312" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/></rect>
-        <use href="#star" x="354" y="363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="406" y="364" width="84" height="14" rx="5" fill="#a13a7a"/><rect x="406" y="352" width="84" height="22" rx="6" fill="#ff6fb5"/>
-        <rect x="406" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="2s" repeatCount="indefinite"/></rect>
-        <use href="#heart" x="448" y="363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="500" y="364" width="84" height="14" rx="5" fill="#2a8aa8"/><rect x="500" y="352" width="84" height="22" rx="6" fill="#5ee7ff"/>
-        <rect x="500" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="2.5s" repeatCount="indefinite"/></rect>
-        <polygon points="542,354 550,363 542,372 534,363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="594" y="364" width="84" height="14" rx="5" fill="#b08a10"/><rect x="594" y="352" width="84" height="22" rx="6" fill="#ffd54a"/>
-        <rect x="594" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="3s" repeatCount="indefinite"/></rect>
-        <use href="#star" x="636" y="363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="688" y="364" width="84" height="14" rx="5" fill="#6a3fb0"/><rect x="688" y="352" width="84" height="22" rx="6" fill="#b98cff"/>
-        <rect x="688" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="3.5s" repeatCount="indefinite"/></rect>
-        <use href="#heart" x="730" y="363" fill="#fff"/>
-      </g>
-      <g>
-        <rect x="782" y="364" width="84" height="14" rx="5" fill="#a13a7a"/><rect x="782" y="352" width="84" height="22" rx="6" fill="#ff6fb5"/>
-        <rect x="782" y="352" width="84" height="22" rx="6" fill="#fff" opacity="0"><animate attributeName="opacity" values="0;0.55;0" dur="4.5s" begin="4s" repeatCount="indefinite"/></rect>
-        <use href="#star" x="824" y="363" fill="#fff"/>
+      <g clip-path="url(#c5)"><text x="54" y="248"><tspan fill="#b0121b" font-weight="800">#</tspan><tspan fill="#5dff7a"> ls ./stack</tspan></text></g>
+      <g clip-path="url(#c6)"><text x="54" y="276" fill="#b9a3d9" font-weight="700">設計  ·  開発  ·  セキュリティ  ·  創造</text></g>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.67;0.68;0.95;1" dur="16s" repeatCount="indefinite"/>
+        <text x="54" y="312"><tspan fill="#b0121b" font-weight="800">#</tspan></text>
+        <rect x="76" y="298" width="10" height="18" fill="#5dff7a" filter="url(#glow)"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
       </g>
     </g>
 
-    <!-- mochi pawn hopping along the board -->
-    <g>
-      <animateMotion dur="16s" repeatCount="indefinite" path="M72,336 H600 H72"/>
-      <ellipse cx="0" cy="14" rx="13" ry="3" fill="#000" opacity="0.3"/>
-      <g>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,-16;0,0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.2 0.6 0.4 1;0.6 0 0.8 0.4" dur="0.6s" repeatCount="indefinite"/>
-        <ellipse cx="0" cy="0" rx="15" ry="13" fill="#fff5fb" stroke="#ff6fb5" stroke-width="2"/>
-        <circle cx="-5" cy="-1" r="2" fill="#3a1d6e"/><circle cx="5" cy="-1" r="2" fill="#3a1d6e"/>
-        <ellipse cx="-9" cy="4" rx="3" ry="2" fill="#ff8fab" opacity="0.8"/><ellipse cx="9" cy="4" rx="3" ry="2" fill="#ff8fab" opacity="0.8"/>
-        <path d="M-2,4 Q0,6 2,4" stroke="#3a1d6e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-        <path d="M0,-13 C-4,-20 4,-22 2,-27" stroke="#6bd16b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-      </g>
+    <!-- glass cracks + corner brackets -->
+    <g fill="none" stroke="#c9d1d9" stroke-opacity="0.35" stroke-width="1" stroke-linejoin="round">
+      <path d="M550,34 L520,74 L527,96 L498,134 L503,160"/><path d="M520,74 L494,70 L476,88"/><path d="M527,96 L549,108"/><path d="M498,134 L478,128"/>
+    </g>
+    <g fill="none" stroke="#e8e1cf" stroke-opacity="0.5" stroke-width="1.5">
+      <path d="M36,52 V40 a4,4 0 0 1 4,-4 H52"/><path d="M544,330 V318"/><path d="M36,324 V336 H48"/><path d="M544,336 H532"/>
     </g>
 
-    <!-- ============ ANIME GIRL (halloween) ============ -->
-    <ellipse cx="715" cy="352" rx="52" ry="7" fill="#000" opacity="0.28">
-      <animate attributeName="rx" values="52;44;52" dur="2.4s" repeatCount="indefinite"/>
-    </ellipse>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="715,172;715,165;715,172" dur="2.4s" repeatCount="indefinite"/>
-      <g transform="scale(0.85)">
+    <g><rect x="98" y="64" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;28;28;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect><circle cx="100" cy="70" r="3" fill="#b0121b"><animate attributeName="cy" values="70;92;92;130;130" keyTimes="0;0.55;0.6;0.95;1" dur="7s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="7s" begin="0s" repeatCount="indefinite"/></circle></g><g><rect x="178" y="64" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;28;28;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="9s" begin="-3s" repeatCount="indefinite"/></rect><circle cx="180" cy="70" r="3" fill="#b0121b"><animate attributeName="cy" values="70;92;92;130;130" keyTimes="0;0.55;0.6;0.95;1" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="9s" begin="-3s" repeatCount="indefinite"/></circle></g><g><rect x="262" y="64" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;28;28;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="6s" begin="-5s" repeatCount="indefinite"/></rect><circle cx="264" cy="70" r="3" fill="#b0121b"><animate attributeName="cy" values="70;92;92;130;130" keyTimes="0;0.55;0.6;0.95;1" dur="6s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="6s" begin="-5s" repeatCount="indefinite"/></circle></g><g><rect x="340" y="64" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;28;28;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="10s" begin="-1s" repeatCount="indefinite"/></rect><circle cx="342" cy="70" r="3" fill="#b0121b"><animate attributeName="cy" values="70;92;92;130;130" keyTimes="0;0.55;0.6;0.95;1" dur="10s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="10s" begin="-1s" repeatCount="indefinite"/></circle></g><g><rect x="430" y="64" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;28;28;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="8s" begin="-7s" repeatCount="indefinite"/></rect><circle cx="432" cy="70" r="3" fill="#b0121b"><animate attributeName="cy" values="70;92;92;130;130" keyTimes="0;0.55;0.6;0.95;1" dur="8s" begin="-7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="8s" begin="-7s" repeatCount="indefinite"/></circle></g><g><rect x="512" y="64" width="4" height="6" rx="2" fill="url(#blood)"><animate attributeName="height" values="6;28;28;6;6" keyTimes="0;0.55;0.6;0.7;1" dur="11s" begin="-4s" repeatCount="indefinite"/></rect><circle cx="514" cy="70" r="3" fill="#b0121b"><animate attributeName="cy" values="70;92;92;130;130" keyTimes="0;0.55;0.6;0.95;1" dur="11s" begin="-4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.6;0.95;1" dur="11s" begin="-4s" repeatCount="indefinite"/></circle></g>
 
-        <!-- tails: green underlayer + pink -->
-        <g>
-          <animateTransform attributeName="transform" type="rotate" values="-5 -50 -25;6 -50 -25;-5 -50 -25" dur="2.4s" repeatCount="indefinite"/>
-          <path d="M-50,-25 C-134,-22 -150,78 -108,136 C-94,98 -80,62 -52,22Z" fill="url(#hairGn)"/>
-          <path d="M-50,-25 C-125,-25 -140,70 -102,128 C-90,92 -78,60 -52,20Z" fill="url(#hairP)"/>
-          <rect x="-63" y="-31" width="22" height="11" rx="4" fill="#17142a" transform="rotate(-20 -52 -25)"/>
-          <rect x="-58" y="-28" width="12" height="3" rx="1.5" fill="#ff8a1f" transform="rotate(-20 -52 -25)"/>
-          <use href="#ghost" transform="translate(-92,98) scale(1.2)"/>
-        </g>
-        <g>
-          <animateTransform attributeName="transform" type="rotate" values="5 50 -25;-6 50 -25;5 50 -25" dur="2.4s" repeatCount="indefinite"/>
-          <path d="M50,-25 C134,-22 150,78 108,136 C94,98 80,62 52,22Z" fill="url(#hairGn)"/>
-          <path d="M50,-25 C125,-25 140,70 102,128 C90,92 78,60 52,20Z" fill="url(#hairP)"/>
-          <rect x="41" y="-31" width="22" height="11" rx="4" fill="#17142a" transform="rotate(20 52 -25)"/>
-          <rect x="46" y="-28" width="12" height="3" rx="1.5" fill="#ff8a1f" transform="rotate(20 52 -25)"/>
-          <use href="#pumpkin" transform="translate(94,96) scale(1.1)"/>
-        </g>
+    <!-- scanlines + flicker on the window -->
+    <rect x="30" y="34" width="520" height="296" rx="6" fill="url(#scan)" opacity="0.5"/>
+    <rect x="30" y="34" width="520" height="296" rx="6" fill="url(#vig)"/>
 
-        <!-- legs: striped socks + boots -->
-        <rect x="-26" y="176" width="16" height="28" fill="#17142a"/><rect x="10" y="176" width="16" height="28" fill="#17142a"/>
-        <rect x="-26" y="184" width="16" height="4" fill="#ff8a1f"/><rect x="10" y="184" width="16" height="4" fill="#ff8a1f"/>
-        <rect x="-26" y="193" width="16" height="4" fill="#ff8a1f"/><rect x="10" y="193" width="16" height="4" fill="#ff8a1f"/>
-        <ellipse cx="-18" cy="208" rx="16" ry="8" fill="#2a2150" stroke="#ff8a1f" stroke-width="1.5"/>
-        <ellipse cx="18" cy="208" rx="16" ry="8" fill="#2a2150" stroke="#ff8a1f" stroke-width="1.5"/>
+    <!-- ===== corner webs over the window ===== -->
+    <use href="#web" transform="translate(10,10) scale(0.9,0.9)" opacity="0.38"/>
+    <use href="#web" transform="translate(10,410) scale(0.8,-0.8)" opacity="0.4"/>
+    <g><line x1="150" y1="10" x2="150" y2="50" stroke="#d7dbe6" stroke-opacity="0.65" stroke-width="0.9"><animate attributeName="y2" values="50;106;50" dur="8s" begin="-2s" repeatCount="indefinite"/></line><g><animateTransform attributeName="transform" type="translate" values="150,63;150,119;150,63" dur="8s" begin="-2s" repeatCount="indefinite"/><use href="#spider" transform="rotate(180)"/></g></g>
 
-        <!-- body -->
-        <rect x="-8" y="44" width="16" height="16" fill="#ffe8d8"/>
-        <path d="M-36,56 Q-52,110 -46,152 L46,152 Q52,110 36,56 Q0,72 -36,56Z" fill="#17142a" stroke="#ff8a1f" stroke-width="2"/>
-        <g stroke="#2e2850" stroke-width="1.6">
-          <path d="M-28,76V146M-20,78V148M-12,80V148M12,80V148M20,78V148M28,76V146"/>
-        </g>
-        <path d="M-47,140 Q0,154 47,140 L47,152 L-47,152Z" fill="#ff8a1f"/>
-        <path d="M-48,150 L48,150 L60,180 L-60,180 Z" fill="#5a2ab0" stroke="#ff8a1f" stroke-width="3"/>
-        <path d="M-20,150 L-24,180 M0,150 L0,180 M20,150 L24,180" stroke="#7a4ad0" stroke-width="2"/>
-        <g transform="translate(0,106)"><use href="#pumpkin"><animateTransform attributeName="transform" type="scale" values="1.5;2;1.5" dur="0.9s" repeatCount="indefinite"/></use></g>
-        <!-- choker -->
-        <rect x="-11" y="50" width="22" height="7" rx="3" fill="#8a5a2b" stroke="#5a3a1b" stroke-width="1"/>
-        <circle cx="-6" cy="53.5" r="1.2" fill="#ffd54a"/><circle cx="0" cy="53.5" r="1.2" fill="#ffd54a"/><circle cx="6" cy="53.5" r="1.2" fill="#ffd54a"/>
+    <!-- ===== bat swarm ===== -->
+    <g opacity="1"><animateMotion dur="14s" begin="0s" repeatCount="indefinite" path="M-40,300 C150,200 300,380 460,260 C620,140 760,300 940,120"/><use href="#bat" transform="scale(1.3)"/></g><g opacity="1"><animateMotion dur="17s" begin="-5s" repeatCount="indefinite" path="M940,330 C780,250 640,110 500,180 C380,240 260,120 -40,80"/><use href="#bat" transform="scale(1.0)"/></g><g opacity="1"><animateMotion dur="12s" begin="-3s" repeatCount="indefinite" path="M560,-20 C600,100 700,60 760,180 C820,260 900,200 940,300"/><use href="#bat" transform="scale(1.6)"/></g><g opacity="1"><animateMotion dur="19s" begin="-9s" repeatCount="indefinite" path="M-40,400 C200,360 420,420 640,300 C760,240 820,120 940,60"/><use href="#bat" transform="scale(1.1)"/></g><g opacity="1"><animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M940,200 C820,150 700,250 600,200 C500,150 440,60 360,-20"/><use href="#bat" transform="scale(0.8)"/></g><g opacity="0.92"><animateMotion dur="9s" begin="-4s" repeatCount="indefinite" path="M940,380 C700,300 500,340 300,200 C160,100 40,160 -60,40"/><use href="#bat" transform="scale(2.4)"/></g><g opacity="1"><animateMotion dur="15s" begin="-7s" repeatCount="indefinite" path="M300,-20 C360,80 520,40 620,120 C700,190 800,170 940,260"/><use href="#bat" transform="scale(1.2)"/></g><g opacity="1"><animateMotion dur="10s" begin="0s" repeatCount="indefinite" path="M735,80 A120,70 0 1 1 735,240 A120,70 0 1 1 735,80"/><use href="#bat" transform="scale(1.0)"/></g><g opacity="1"><animateMotion dur="13s" begin="-5s" repeatCount="indefinite" path="M735,240 A100,60 0 1 0 735,80 A100,60 0 1 0 735,240"/><use href="#bat" transform="scale(0.9)"/></g>
 
-        <!-- left arm: sway + strap + web tattoo -->
-        <g>
-          <animateTransform attributeName="transform" type="rotate" values="20 -38 66;30 -38 66;20 -38 66" dur="2.4s" repeatCount="indefinite"/>
-          <rect x="-46" y="60" width="16" height="46" rx="8" fill="#ffe8d8"/>
-          <g stroke="#4b2a6f" stroke-width="1" fill="none"><circle cx="-38" cy="91" r="5"/><circle cx="-38" cy="91" r="2.5"/><path d="M-38,86V96M-43,91H-33M-41.5,87.5L-34.5,94.5M-34.5,87.5L-41.5,94.5"/></g>
-          <rect x="-47" y="70" width="18" height="8" rx="2" fill="#8a5a2b" stroke="#5a3a1b" stroke-width="1"/>
-          <circle cx="-42" cy="74" r="1.3" fill="#ffd54a"/><circle cx="-38" cy="74" r="1.3" fill="#ffd54a"/><circle cx="-34" cy="74" r="1.3" fill="#ffd54a"/>
-          <circle cx="-38" cy="109" r="9" fill="#ffe8d8"/>
-        </g>
-        <!-- right arm: waving -->
-        <g>
-          <animateTransform attributeName="transform" type="rotate" values="-150 38 66;-118 38 66;-150 38 66" dur="0.8s" repeatCount="indefinite"/>
-          <rect x="30" y="60" width="16" height="46" rx="8" fill="#ffe8d8"/>
-          <rect x="29" y="70" width="18" height="8" rx="2" fill="#8a5a2b" stroke="#5a3a1b" stroke-width="1"/>
-          <circle cx="34" cy="74" r="1.3" fill="#ffd54a"/><circle cx="38" cy="74" r="1.3" fill="#ffd54a"/><circle cx="42" cy="74" r="1.3" fill="#ffd54a"/>
-          <circle cx="38" cy="109" r="9" fill="#ffe8d8"/>
-        </g>
-
-        <!-- head -->
-        <ellipse cx="0" cy="-6" rx="63" ry="61" fill="url(#hairGn)"/>
-        <ellipse cx="0" cy="-6" rx="60" ry="58" fill="url(#hairP)"/>
-        <ellipse cx="0" cy="4" rx="52" ry="50" fill="#ffe8d8"/>
-
-        <!-- eyes (magenta) -->
-        <g>
-          <ellipse cx="-21" cy="8" rx="13" ry="16" fill="#fff"/>
-          <ellipse cx="-21" cy="9" rx="11" ry="14" fill="url(#irisH)"/>
-          <ellipse cx="-21" cy="10" rx="5.5" ry="8" fill="#2a0f50"/>
-          <circle cx="-25" cy="3" r="4" fill="#fff"/><circle cx="-17" cy="15" r="2" fill="#fff"/>
-          <ellipse cx="-21" cy="8" rx="15" ry="0" fill="#ffe8d8"><animate attributeName="ry" values="0;0;20;0;0" keyTimes="0;0.9;0.94;0.98;1" dur="4s" repeatCount="indefinite"/></ellipse>
-          <path d="M-35,4 Q-21,-14 -7,2" stroke="#3a1d6e" stroke-width="3" fill="none" stroke-linecap="round"/>
-        </g>
-        <g>
-          <ellipse cx="21" cy="8" rx="13" ry="16" fill="#fff"/>
-          <ellipse cx="21" cy="9" rx="11" ry="14" fill="url(#irisH)"/>
-          <ellipse cx="21" cy="10" rx="5.5" ry="8" fill="#2a0f50"/>
-          <circle cx="17" cy="3" r="4" fill="#fff"/><circle cx="25" cy="15" r="2" fill="#fff"/>
-          <ellipse cx="21" cy="8" rx="15" ry="0" fill="#ffe8d8"><animate attributeName="ry" values="0;0;20;0;0" keyTimes="0;0.9;0.94;0.98;1" dur="4s" repeatCount="indefinite"/></ellipse>
-          <path d="M7,2 Q21,-14 35,4" stroke="#3a1d6e" stroke-width="3" fill="none" stroke-linecap="round"/>
-        </g>
-
-        <!-- blush, cheek marks, smile -->
-        <ellipse cx="-34" cy="25" rx="8" ry="4.5" fill="#ff7eb6" opacity="0.65"/>
-        <ellipse cx="34" cy="25" rx="8" ry="4.5" fill="#ff7eb6" opacity="0.65"/>
-        <path d="M38,30 l3,6 M43,29 l3,6 M33,31 l3,6" stroke="#8a3cc0" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
-        <path d="M-7,30 Q0,36 8,29" stroke="#c2185b" stroke-width="2.6" fill="none" stroke-linecap="round"/>
-        <polygon points="3,33 6,31 5,36" fill="#fff"/>
-
-        <!-- bangs, green streaks, side locks -->
-        <path d="M-58,0 C-64,-72 64,-72 58,0 L46,-18 L40,-4 L30,-24 L20,-8 L8,-28 L-2,-6 L-14,-26 L-26,-6 L-36,-24 L-44,-4 L-52,-16 Z" fill="url(#hairP)"/>
-        <path d="M-14,-62 C-18,-46 -20,-34 -16,-26" stroke="#9be58a" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M18,-62 C24,-46 28,-36 24,-24" stroke="#9be58a" stroke-width="4" fill="none" stroke-linecap="round"/>
-        <path d="M-58,0 C-62,30 -56,60 -50,72 C-52,40 -50,20 -46,0Z" fill="url(#hairP)"/>
-        <path d="M58,0 C62,30 56,60 50,72 C52,40 50,20 46,0Z" fill="url(#hairP)"/>
-        <path d="M-52,6 C-54,34 -50,56 -48,66" stroke="#9be58a" stroke-width="3" fill="none" stroke-linecap="round"/>
-        <path d="M-32,-46 Q-14,-56 4,-50" stroke="#fff" stroke-opacity="0.55" stroke-width="4" fill="none" stroke-linecap="round"/>
-
-        <!-- ahoge -->
-        <path d="M0,-60 C-8,-82 14,-88 10,-102" stroke="#ff8fc8" stroke-width="4" fill="none" stroke-linecap="round">
-          <animateTransform attributeName="transform" type="rotate" values="-8 0 -60;9 0 -60;-8 0 -60" dur="1.2s" repeatCount="indefinite"/>
-        </path>
-
-        <!-- black headband with little horns -->
-        <path d="M-58,-6 C-62,-78 62,-78 58,-6" stroke="#17142a" stroke-width="7" fill="none"/>
-        <path d="M-58,-6 C-62,-78 62,-78 58,-6" stroke="#ff8a1f" stroke-width="1.5" fill="none" stroke-dasharray="4 5" opacity="0.9"/>
-        <path d="M-36,-66 Q-46,-94 -28,-98 Q-30,-82 -22,-70Z" fill="#17142a" stroke="#ff8a1f" stroke-width="1.5"/>
-        <path d="M36,-66 Q46,-94 28,-98 Q30,-82 22,-70Z" fill="#17142a" stroke="#ff8a1f" stroke-width="1.5"/>
-
-        <!-- spider web + dangling spider -->
-        <g transform="translate(14,-58)" fill="none" stroke="#fff" stroke-width="1.2" opacity="0.95">
-          <path d="M-26,12 Q0,-16 26,12 M-18,12 Q0,-6 18,12 M-10,12 Q0,2 10,12"/>
-          <path d="M0,12 L-26,12 M0,12 L-20,-2 M0,12 L-8,-8 M0,12 L8,-8 M0,12 L20,-2 M0,12 L26,12"/>
-        </g>
-        <g transform="translate(14,-46)">
-          <animateTransform attributeName="transform" type="translate" values="14,-46;14,-34;14,-46" dur="2.2s" repeatCount="indefinite"/>
-          <line x1="0" y1="0" x2="0" y2="14" stroke="#fff" stroke-width="1" opacity="0.8"/>
-          <circle cx="0" cy="17" r="3.5" fill="#17142a"/>
-          <path d="M-3,15 L-8,12 M-3,18 L-8,21 M3,15 L8,12 M3,18 L8,21" stroke="#17142a" stroke-width="1.2"/>
-        </g>
-
-        <!-- hair accessories: pumpkin pin, X clips, bat -->
-        <g transform="translate(-46,-32)"><g><animateTransform attributeName="transform" type="rotate" values="-10;10;-10" dur="1.6s" repeatCount="indefinite"/><use href="#pumpkin" transform="scale(1.2)"/></g></g>
-        <g transform="translate(34,-26)">
-          <rect x="-10" y="-2.8" width="20" height="5.6" rx="2" fill="#17142a" transform="rotate(45)"/>
-          <rect x="-10" y="-2.8" width="20" height="5.6" rx="2" fill="#17142a" transform="rotate(-45)"/>
-          <circle r="1.6" fill="#fff" opacity="0.8"/>
-        </g>
-        <g transform="translate(46,-12) scale(0.8)">
-          <rect x="-10" y="-2.8" width="20" height="5.6" rx="2" fill="#17142a" transform="rotate(45)"/>
-          <rect x="-10" y="-2.8" width="20" height="5.6" rx="2" fill="#17142a" transform="rotate(-45)"/>
-        </g>
-        <g transform="translate(-52,40)">
-          <use href="#bat" transform="scale(1.1)"><animateTransform attributeName="transform" type="scale" values="1.1 1.1;1.1 0.55;1.1 1.1" dur="0.5s" repeatCount="indefinite"/></use>
-        </g>
-        <!-- pumpkin earring -->
-        <line x1="-56" y1="26" x2="-56" y2="34" stroke="#ffd54a" stroke-width="1.2"/>
-        <use href="#pumpkin" transform="translate(-56,40) scale(0.8)"/>
-      </g>
-    </g>
-
-    <!-- floating ghosts + bats -->
-    <g>
-      <use href="#ghost" transform="translate(600 235) scale(1.6)"><animateTransform attributeName="transform" type="translate" values="600,235;600,222;600,235" dur="2.6s" repeatCount="indefinite" additive="sum"/></use>
-      <use href="#ghost" transform="translate(850 150) scale(1.2)"><animateTransform attributeName="transform" type="translate" values="850,150;850,140;850,150" dur="2.2s" begin="-1s" repeatCount="indefinite" additive="sum"/></use>
-      <use href="#bat" transform="scale(1.4)"><animateMotion dur="10s" repeatCount="indefinite" path="M520,110 C600,70 700,130 880,90"/><animateTransform attributeName="transform" type="scale" values="1.4 1.4;1.4 0.5;1.4 1.4" dur="0.4s" repeatCount="indefinite"/></use>
-    </g>
+    <!-- ===== atmosphere ===== -->
+    <rect x="10" y="10" width="880" height="400" fill="url(#scan)" opacity="0.25"/>
+    <rect x="10" y="10" width="880" height="400" fill="url(#vig)"/>
+    <rect x="10" y="10" width="880" height="400" fill="#000" opacity="0"><animate attributeName="opacity" values="0;0;0;0.5;0;0.25;0;0;0.6;0;0" keyTimes="0;0.3;0.31;0.32;0.33;0.34;0.35;0.7;0.71;0.72;1" dur="11s" repeatCount="indefinite"/></rect>
+    <rect x="10" y="-10" width="880" height="5" fill="#5dff7a" opacity="0.06"><animate attributeName="y" values="-10;-10;430" keyTimes="0;0.8;1" dur="7s" repeatCount="indefinite"/></rect>
   </g>
 
-  <!-- arcade border lights -->
-  <rect x="10" y="10" width="880" height="400" rx="18" fill="none" stroke="url(#neon)" stroke-width="3"/>
-  <rect x="16" y="16" width="868" height="388" rx="14" fill="none" stroke="#fff" stroke-opacity="0.75" stroke-width="2" stroke-dasharray="3 14" stroke-linecap="round">
-    <animate attributeName="stroke-dashoffset" values="0;-170" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <!-- haunted frame -->
+  <rect x="10" y="10" width="880" height="400" rx="10" fill="none" stroke="#1a0a10" stroke-width="5"/>
+  <rect x="10" y="10" width="880" height="400" rx="10" fill="none" stroke="#b0121b" stroke-width="1.5"><animate attributeName="stroke-opacity" values="1;0.3;1;0.6;0.15;1" dur="5s" repeatCount="indefinite"/></rect>
 </svg>
