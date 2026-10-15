@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">自己紹介 — WHO AM I — 私について</title>
+  <desc id="desc">Animated dense gothic anime banner with oni masks, skulls, candles, spider webs, bats, eyes, moon, chains, sakura, smoke, blood drips, occult runes and glowing title.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040711"/>
+      <stop offset="35%" stop-color="#190817"/>
+      <stop offset="65%" stop-color="#220b1d"/>
+      <stop offset="100%" stop-color="#060912"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ba2147"/>
+      <stop offset="45%" stop-color="#ff84ac"/>
+      <stop offset="100%" stop-color="#64357d"/>
+    </linearGradient>
+    <linearGradient id="glowLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8d2848"/>
+      <stop offset="50%" stop-color="#ff6b91"/>
+      <stop offset="100%" stop-color="#8d2848"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff9dd"/>
+      <stop offset="35%" stop-color="#ffd76c"/>
+      <stop offset="70%" stop-color="#ff8a2c"/>
+      <stop offset="100%" stop-color="#ff4e1f"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#fff7ef"/>
+      <stop offset="50%" stop-color="#f4d6e7"/>
+      <stop offset="100%" stop-color="#8f5f89"/>
+    </radialGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffe39d"/>
+      <stop offset="35%" stop-color="#ff5f66"/>
+      <stop offset="100%" stop-color="#841830"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <g id="web" stroke="#cfd7ff" stroke-opacity="0.45" fill="none" stroke-width="1.2">
+      <path d="M0 0C55 2 95 18 124 45"/>
+      <path d="M0 18C48 22 81 39 104 68"/>
+      <path d="M0 41C37 44 62 65 81 91"/>
+      <path d="M0 68C26 71 43 86 55 108"/>
+      <path d="M0 104C14 107 23 115 29 128"/>
+      <path d="M0 0C18 42 54 72 124 45"/>
+      <path d="M0 0C9 40 38 71 104 68"/>
+      <path d="M0 0C5 35 25 66 81 91"/>
+      <path d="M0 0C2 31 14 58 55 108"/>
+      <path d="M0 0C0 24 8 52 29 128"/>
+    </g>
+
+    <g id="bat" fill="#110c1b" stroke="#8e5ca1" stroke-width="1.4">
+      <path d="M0 0C-9 -15 -22 -16 -33 -7C-28 -4 -25 2 -22 8C-15 3 -7 7 -4 16L0 11L4 16C7 7 15 3 22 8C25 2 28 -4 33 -7C22 -16 9 -15 0 0Z"/>
+      <circle cx="-3" cy="2" r="1.6" fill="#ff4d7c"/>
+      <circle cx="3" cy="2" r="1.6" fill="#ff4d7c"/>
+    </g>
+
+    <g id="star" fill="#ffe1ef"><path d="M0 -7L2 -2L7 0L2 2L0 7L-2 2L-7 0L-2 -2Z"/></g>
+
+    <g id="sakura" fill="#f092bf">
+      <ellipse cx="0" cy="-6" rx="3.4" ry="6.2"/>
+      <ellipse cx="0" cy="-6" rx="3.4" ry="6.2" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-6" rx="3.4" ry="6.2" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-6" rx="3.4" ry="6.2" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-6" rx="3.4" ry="6.2" transform="rotate(288)"/>
+      <circle r="2" fill="#fff0af"/>
+    </g>
+
+    <g id="skull" stroke="#22121b" stroke-width="2.2">
+      <circle cx="0" cy="0" r="18" fill="#efe8df"/>
+      <rect x="-11" y="9" width="22" height="12" rx="4" fill="#efe8df"/>
+      <circle cx="-6" cy="-2" r="3.4" fill="#09080f"/>
+      <circle cx="6" cy="-2" r="3.4" fill="#09080f"/>
+      <path d="M-6 15V19M0 14V19M6 15V19" stroke="#23151e" stroke-linecap="round"/>
+    </g>
+
+    <g id="eyePair">
+      <ellipse cx="-12" cy="0" rx="10" ry="8" fill="#120a13" stroke="#cc5b7b" stroke-width="1.4"/>
+      <ellipse cx="12" cy="0" rx="10" ry="8" fill="#120a13" stroke="#cc5b7b" stroke-width="1.4"/>
+      <circle cx="-12" cy="0" r="3.8" fill="url(#eyeGlow)" filter="url(#softGlow)"/>
+      <circle cx="12" cy="0" r="3.8" fill="url(#eyeGlow)" filter="url(#softGlow)"/>
+    </g>
+
+    <g id="candle">
+      <rect x="-12" y="18" width="24" height="84" rx="5" fill="#ece8e1"/>
+      <rect x="-8" y="22" width="16" height="76" rx="4" fill="#d0ccc6" opacity="0.45"/>
+      <path d="M0 10C-5 2 -5 -6 0 -19C5 -6 5 2 0 10Z" fill="url(#flame)" filter="url(#bigGlow)">
+        <animate attributeName="d" dur="1.8s" repeatCount="indefinite" values="M0 10C-5 2 -5 -6 0 -19C5 -6 5 2 0 10Z;M0 10C-7 1 -2 -8 2 -21C7 -7 6 1 0 10Z;M0 10C-4 1 -7 -9 0 -20C5 -8 3 1 0 10Z;M0 10C-5 2 -5 -6 0 -19C5 -6 5 2 0 10Z"/>
+      </path>
+      <ellipse cx="0" cy="105" rx="22" ry="5" fill="#16131e" opacity="0.75"/>
+    </g>
+
+    <g id="oniMask">
+      <path d="M-42 -10L-29 -40L-8 -21L8 -21L29 -40L42 -10L37 38C23 54 -23 54 -37 38Z" fill="#f0e8df" stroke="#2c0d19" stroke-width="3"/>
+      <path d="M-42 -10L-29 -40L-16 -13" fill="none" stroke="#b61d3f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M42 -10L29 -40L16 -13" fill="none" stroke="#b61d3f" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="-14" cy="-1" rx="9" ry="10" fill="#140d15"/>
+      <ellipse cx="14" cy="-1" rx="9" ry="10" fill="#140d15"/>
+      <circle cx="-14" cy="-1" r="3.5" fill="#ff445d" filter="url(#softGlow)"/>
+      <circle cx="14" cy="-1" r="3.5" fill="#ff445d" filter="url(#softGlow)"/>
+      <path d="M-9 13Q0 21 9 13" stroke="#241117" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M-13 19L-8 30L-1 18M13 19L8 30L1 18" fill="#f0e8df" stroke="#241117" stroke-width="2.2"/>
+      <circle cx="0" cy="13" r="2.2" fill="#b94259"/>
+    </g>
+
+    <g id="rune" fill="none" stroke="#ff7eac" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -10V10M-8 -2H8M-6 -9L6 9M6 -9L-6 9"/>
+    </g>
+
+    <g id="drip" fill="#b4153e">
+      <path d="M0 0C0 8 -5 8 -5 16C-5 24 0 28 0 28C0 28 5 24 5 16C5 8 0 8 0 0Z"/>
+    </g>
+
+    <g id="chain" stroke="#8381a2" stroke-opacity="0.7" fill="none" stroke-width="2.2">
+      <ellipse cx="0" cy="0" rx="7" ry="11" transform="rotate(22)"/>
+      <ellipse cx="0" cy="18" rx="7" ry="11" transform="rotate(-22)"/>
+      <ellipse cx="0" cy="36" rx="7" ry="11" transform="rotate(22)"/>
+      <ellipse cx="0" cy="54" rx="7" ry="11" transform="rotate(-22)"/>
+      <ellipse cx="0" cy="72" rx="7" ry="11" transform="rotate(22)"/>
+    </g>
+
+    <g id="smoke" fill="none" stroke="#b59dcf" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round">
+      <path d="M0 0C-8 -14 8 -21 2 -36C-4 -47 12 -56 8 -71"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#vignette)"/>
+  <rect x="4" y="4" width="1192" height="292" rx="20" fill="none" stroke="url(#frame)" stroke-width="3"/>
+  <rect x="12" y="12" width="1176" height="276" rx="16" fill="none" stroke="#8a2d53" stroke-opacity="0.28" stroke-width="1.4"/>
+
+  <g transform="translate(0 0)"><use href="#web" x="18" y="18"/></g>
+  <g transform="translate(1200 0) scale(-1 1)"><use href="#web" x="18" y="18"/></g>
+
+  <g opacity="0.8">
+    <use href="#drip" transform="translate(344 0)"><animateTransform attributeName="transform" type="translate" values="344 0;344 5;344 0" dur="2.7s" repeatCount="indefinite"/></use>
+    <use href="#drip" transform="translate(602 0) scale(1.1)"><animateTransform attributeName="transform" type="translate" values="602 0;602 9;602 0" dur="2.1s" repeatCount="indefinite"/></use>
+    <use href="#drip" transform="translate(855 0) scale(.9)"><animateTransform attributeName="transform" type="translate" values="855 0;855 6;855 0" dur="2.4s" repeatCount="indefinite"/></use>
+  </g>
+
+  <g opacity="0.56">
+    <g transform="translate(490 18)"><use href="#rune"/><animate attributeName="opacity" values=".35;1;.35" dur="3.2s" repeatCount="indefinite"/></g>
+    <g transform="translate(712 22) scale(.86)"><use href="#rune"/><animate attributeName="opacity" values="1;.3;1" dur="2.7s" repeatCount="indefinite"/></g>
+    <g transform="translate(250 234) scale(.75)"><use href="#rune"/><animate attributeName="opacity" values=".3;1;.3" dur="4.1s" repeatCount="indefinite"/></g>
+    <g transform="translate(950 233) scale(.75)"><use href="#rune"/><animate attributeName="opacity" values="1;.3;1" dur="3.8s" repeatCount="indefinite"/></g>
+  </g>
+
+  <g transform="translate(1015 82)">
+    <circle cx="0" cy="0" r="42" fill="url(#moon)" opacity="0.9"/>
+    <circle cx="16" cy="-12" r="34" fill="#0a0912" opacity="0.92"/>
+    <circle cx="-24" cy="-8" r="2.3" fill="#fff8f3" opacity="0.9"/>
+    <circle cx="-12" cy="14" r="1.8" fill="#fff8f3" opacity="0.8"/>
+  </g>
+
+  <g opacity="0.6">
+    <g transform="translate(76 34)"><use href="#chain"><animateTransform attributeName="transform" type="translate" values="76 34;76 41;76 34" dur="4s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(1123 34)"><use href="#chain"><animateTransform attributeName="transform" type="translate" values="1123 34;1123 42;1123 34" dur="4.4s" repeatCount="indefinite"/></use></g>
+  </g>
+
+  <g opacity="0.65">
+    <g transform="translate(150 224)"><use href="#smoke"><animateTransform attributeName="transform" type="translate" values="150 224;150 214;150 224" dur="5s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(1048 225)"><use href="#smoke"><animateTransform attributeName="transform" type="translate" values="1048 225;1048 214;1048 225" dur="4.5s" repeatCount="indefinite"/></use></g>
+  </g>
+
+  <g transform="translate(116 185)"><use href="#candle"/><animateTransform attributeName="transform" type="translate" values="116 185;116 180;116 185" dur="3.6s" repeatCount="indefinite"/></g>
+  <g transform="translate(1084 185)"><use href="#candle"/><animateTransform attributeName="transform" type="translate" values="1084 185;1084 189;1084 185" dur="4.1s" repeatCount="indefinite"/></g>
+
+  <g transform="translate(228 122)"><use href="#oniMask"/><animateTransform attributeName="transform" type="translate" values="228 122;228 114;228 122" dur="3.3s" repeatCount="indefinite"/></g>
+  <g transform="translate(972 122)"><use href="#oniMask"/><animateTransform attributeName="transform" type="translate" values="972 122;972 128;972 122" dur="3.9s" repeatCount="indefinite"/></g>
+
+  <g transform="translate(140 112) scale(.88)"><use href="#skull"/><animateTransform attributeName="transform" type="translate" values="140 112;140 107;140 112" dur="2.9s" repeatCount="indefinite"/></g>
+  <g transform="translate(1060 112) scale(.88)"><use href="#skull"/><animateTransform attributeName="transform" type="translate" values="1060 112;1060 118;1060 112" dur="3.6s" repeatCount="indefinite"/></g>
+
+  <g transform="translate(600 40)"><use href="#eyePair"/><animate attributeName="opacity" values=".75;1;.75" dur="2.3s" repeatCount="indefinite"/></g>
+  <g transform="translate(340 72) scale(.82)"><use href="#eyePair"/><animate attributeName="opacity" values=".2;.85;.2" dur="2.7s" repeatCount="indefinite"/></g>
+  <g transform="translate(860 72) scale(.82)"><use href="#eyePair"/><animate attributeName="opacity" values=".85;.2;.85" dur="3.1s" repeatCount="indefinite"/></g>
+
+  <g opacity="0.85">
+    <g transform="translate(425 55) scale(.7)"><use href="#bat"/><animateTransform attributeName="transform" type="translate" values="0 0;-9 -6;0 0" dur="3.6s" repeatCount="indefinite"/></g>
+    <g transform="translate(770 73) scale(.96)"><use href="#bat"/><animateTransform attributeName="transform" type="translate" values="0 0;10 -7;0 0" dur="4.2s" repeatCount="indefinite"/></g>
+    <g transform="translate(894 48) scale(.56)"><use href="#bat"/><animateTransform attributeName="transform" type="translate" values="0 0;-7 4;0 0" dur="2.9s" repeatCount="indefinite"/></g>
+    <g transform="translate(522 222) scale(.6)"><use href="#bat"/><animateTransform attributeName="transform" type="translate" values="0 0;7 -5;0 0" dur="3.2s" repeatCount="indefinite"/></g>
+  </g>
+
+  <g opacity="0.68">
+    <use href="#star" transform="translate(320 44) scale(.9)"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" repeatCount="indefinite"/></use>
+    <use href="#star" transform="translate(877 55) scale(.65)"><animate attributeName="opacity" values="1;.25;1" dur="3.1s" repeatCount="indefinite"/></use>
+    <use href="#star" transform="translate(935 222) scale(.8)"><animate attributeName="opacity" values=".3;1;.3" dur="2.8s" repeatCount="indefinite"/></use>
+    <use href="#star" transform="translate(274 208) scale(.7)"><animate attributeName="opacity" values="1;.2;1" dur="3.8s" repeatCount="indefinite"/></use>
+    <use href="#star" transform="translate(707 44) scale(.55)"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></use>
+  </g>
+
+  <g>
+    <g transform="translate(372 64) scale(.85)"><use href="#sakura"/><animateTransform attributeName="transform" type="translate" values="0 0;-2 11;0 0" dur="5s" repeatCount="indefinite"/></g>
+    <g transform="translate(820 216) scale(.92)"><use href="#sakura"/><animateTransform attributeName="transform" type="translate" values="0 0;4 12;0 0" dur="5.6s" repeatCount="indefinite"/></g>
+    <g transform="translate(1003 226) scale(.72)"><use href="#sakura"/><animateTransform attributeName="transform" type="translate" values="0 0;-4 9;0 0" dur="4.8s" repeatCount="indefinite"/></g>
+    <g transform="translate(168 58) scale(.66)"><use href="#sakura"/><animateTransform attributeName="transform" type="translate" values="0 0;5 8;0 0" dur="5.4s" repeatCount="indefinite"/></g>
+    <g transform="translate(595 233) scale(.62)"><use href="#sakura"/><animateTransform attributeName="transform" type="translate" values="0 0;2 8;0 0" dur="4.2s" repeatCount="indefinite"/></g>
+  </g>
+
+  <g opacity="0.76">
+    <path d="M318 140H500" stroke="url(#glowLine)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M700 140H882" stroke="url(#glowLine)" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="318" cy="140" r="3.5" fill="#ff8eaf"/>
+    <circle cx="882" cy="140" r="3.5" fill="#ff8eaf"/>
+  </g>
+
+  <text x="600" y="92" text-anchor="middle" font-family="'Noto Sans CJK JP','Yu Gothic',sans-serif" font-size="28" font-weight="700" letter-spacing="10" fill="#ffe1ef">自己紹介</text>
+  <text x="600" y="165" text-anchor="middle" font-family="monospace" font-size="66" font-weight="700" letter-spacing="4" fill="#fff6f0" filter="url(#bigGlow)">WHO AM I</text>
+  <text x="868" y="165" text-anchor="start" font-family="monospace" font-size="66" font-weight="700" fill="#ff7398" filter="url(#bigGlow)">_<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></text>
+  <text x="600" y="222" text-anchor="middle" font-family="'Noto Sans CJK JP','Yu Gothic',sans-serif" font-size="24" font-weight="600" letter-spacing="8" fill="#f3bfdc">私について</text>
+
+  <g opacity="0.42">
+    <path d="M34 260H1166" stroke="#b83f62"/>
+    <path d="M34 264H1166" stroke="#68263d"/>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="./assets/who.svg" alt="01 / 自己紹介 — who am i" width="100%" />
+<img src="./assets/whoami.svg" alt="01 / 自己紹介 — who am i" width="100%" />
 
 </div>
 
