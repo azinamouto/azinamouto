@@ -108,12 +108,6 @@ Outside engineering? I love anime, obviously. :>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=azinamouto&bg_color=0d1117&color=c9d1d9&line=3fb950&point=58a6ff&area=true&area_color=238636&hide_border=true&custom_title=Development%20Activity" alt="GitHub Development Activity Graph" width="100%" />
 
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=azinamouto&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&icon_color=3fb950" alt="GitHub Statistics" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azinamouto&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9" alt="Most Used Languages" height="165" />
-
 <br><br>
 
 <sub>継続は力なり。 — Consistency is strength.</sub>
