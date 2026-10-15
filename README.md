@@ -106,8 +106,6 @@ Outside engineering? I love anime, obviously. :>
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
 <div align="center">
 
 ### まだ途中。
@@ -127,8 +125,8 @@ Outside engineering? I love anime, obviously. :>
 <sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
 
 <br><br>
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
-<img src="./assets/footer.svg" width="100%" alt="Animated profile footer" />
 
 
 </div>
