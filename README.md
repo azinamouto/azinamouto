@@ -6,7 +6,6 @@
 </div>
 
 <div align="center">
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### 静かに創り、世界を変える。
 
@@ -66,10 +65,6 @@ Outside engineering? I love anime, obviously. :>
 
 <br><br>
 
-<sub>技術は道具。創造こそが目的。</sub>
-
-<sub>Technology is the tool. Creation is the purpose.</sub>
-
 </div>
 
 
@@ -115,17 +110,9 @@ Outside engineering? I love anime, obviously. :>
 
 <br><br>
 
-<sub>継続は力なり。 — Consistency is strength.</sub>
-
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-### `05 / これから — know more?`
-
-I'm interested in the intersection of **software engineering, systems architecture, security, and real-world digital transformation**.
-
-Through ALZA and my personal projects, I'm continuously exploring how technology can make workflows simpler, information more accessible, and software systems more reliable.
 
 **まだ始まったばかり。**
 
