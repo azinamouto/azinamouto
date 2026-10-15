@@ -1,6 +1,8 @@
 
 <div align="center">
 
+<img src="./assets/who.svg" alt="01 / 自己紹介 — who am i" width="100%" />
+
 ### 静かに創り、世界を変える。
 
 *Build quietly. Change what matters.*
@@ -16,8 +18,6 @@
 </div>
 
 ---
-
-<img src="./assets/who.svg" alt="01 / 自己紹介 — who am i" width="100%" />
 
 こんにちは、azinamouto です。
 
