@@ -49,7 +49,7 @@ Outside engineering? I love anime, obviously. :>
 **技術と創造 — TECHNOLOGY & CREATION**
 <br>
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
-<br>
+<br><br>
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,go,java,kotlin,dart,react,html,css,bootstrap,tailwind,nodejs,nestjs,express,flutter,androidstudio,postgres,supabase,git,github,githubactions,docker,vercel,vscode,linux,bash,postman&theme=dark&perline=10" alt="Technology Stack" />
 
