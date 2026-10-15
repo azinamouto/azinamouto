@@ -5,8 +5,8 @@
 
 </div>
 
----
 <div align="center">
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### 静かに創り、世界を変える。
 
@@ -42,8 +42,6 @@ Outside engineering? I love anime, obviously. :>
 >
 > Progress over perfection.
 
----
-
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### `02 / 技術構成 — my technology stack`
@@ -74,7 +72,6 @@ Outside engineering? I love anime, obviously. :>
 
 </div>
 
----
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
@@ -95,7 +92,6 @@ Outside engineering? I love anime, obviously. :>
 
 <sub>進行中 — Projects may be experimental, under development, or privately maintained.</sub>
 
----
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
@@ -123,8 +119,6 @@ Outside engineering? I love anime, obviously. :>
 
 </div>
 
----
-
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### `05 / これから — know more?`
@@ -136,8 +130,6 @@ Through ALZA and my personal projects, I'm continuously exploring how technology
 **まだ始まったばかり。**
 
 *This is only the beginning.*
-
----
 
 <div align="center">
 
