@@ -53,7 +53,7 @@ Outside engineering? I love anime, obviously. :>
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,go,java,kotlin,dart,react,html,css,bootstrap,tailwind,nodejs,nestjs,express,flutter,androidstudio,postgres,supabase,git,github,githubactions,docker,vercel,vscode,linux,bash,postman&theme=dark&perline=10" alt="Technology Stack" />
 
-<br><br>
+<br>
 
 <img src="https://img.shields.io/badge/REST_API-111827?style=flat-square" alt="REST API" />
 <img src="https://img.shields.io/badge/Application_Security-111827?style=flat-square" alt="Application Security" />
@@ -109,10 +109,9 @@ Outside engineering? I love anime, obviously. :>
 
 <div align="center">
 
-### まだ途中。*Still a work in progress.* **静かに、着実に。** *Quietly, steadily.*
+### まだ途中 **静かに、着実に。** 
 
 <br>
-`less noise. more commits.`
 <sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
 
 <br>
