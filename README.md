@@ -1,8 +1,6 @@
 
 <div align="center">
 
-<img src="./assets/Terminal.svg" alt="Animated azinamouto terminal introduction" width="100%" />
-
 ### 静かに創り、世界を変える。
 
 *Build quietly. Change what matters.*
