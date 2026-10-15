@@ -112,23 +112,6 @@ Outside engineering? I love anime, obviously. :>
 
 ---
 
-### `05 / 開発哲学 — engineering philosophy`
-
-```text
-[01] Build for people, not just screenshots.
-[02] Understand the system, not only the syntax.
-[03] Security and maintainability are features.
-[04] Good architecture makes complexity manageable.
-[05] Experiment often. Validate assumptions.
-[06] Keep learning. Keep building. Keep improving.
-```
-
-**一歩ずつ。** — One step at a time.
-
-**初心忘るべからず。** — Never forget the beginner's mindset.
-
----
-
 ### `06 / これから — what's next`
 
 I'm interested in the intersection of **software engineering, systems architecture, security, and real-world digital transformation**.
