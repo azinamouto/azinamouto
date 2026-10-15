@@ -47,6 +47,7 @@ Outside engineering? I love anime, obviously. :>
 <div align="center">
 
 **技術と創造 — TECHNOLOGY & CREATION**
+<br>
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 <br>
 
@@ -108,20 +109,10 @@ Outside engineering? I love anime, obviously. :>
 
 <div align="center">
 
-### まだ途中。
-
-*Still a work in progress.*
-
-**静かに、着実に。**
-
-*Quietly, steadily.*
+### まだ途中。*Still a work in progress.* **静かに、着実に。** *Quietly, steadily.*
 
 <br>
-
 `less noise. more commits.`
-
-<br>
-
 <sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
 
 <br>
