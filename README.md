@@ -41,7 +41,6 @@ Outside engineering? I love anime, obviously. :>
 >
 > Progress over perfection.
 
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### `02 / 技術構成 — my technology stack`
 
@@ -87,8 +86,6 @@ Outside engineering? I love anime, obviously. :>
 
 <sub>進行中 — Projects may be experimental, under development, or privately maintained.</sub>
 
-
-<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### `04 / 開発記録 — contribution activity`
 
