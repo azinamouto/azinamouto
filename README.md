@@ -47,7 +47,7 @@ Outside engineering? I love anime, obviously. :>
 <div align="center">
 
 **技術と創造 — TECHNOLOGY & CREATION**
-
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 <br>
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,go,java,kotlin,dart,react,html,css,bootstrap,tailwind,nodejs,nestjs,express,flutter,androidstudio,postgres,supabase,git,github,githubactions,docker,vercel,vscode,linux,bash,postman&theme=dark&perline=10" alt="Technology Stack" />
@@ -103,17 +103,10 @@ Outside engineering? I love anime, obviously. :>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=azinamouto&bg_color=0d1117&color=c9d1d9&line=3fb950&point=58a6ff&area=true&area_color=238636&hide_border=true&custom_title=Development%20Activity" alt="Development Activity Graph" width="100%" />
-
-<br><br>
 
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
-**まだ始まったばかり。**
-
-*This is only the beginning.*
 
 <div align="center">
 
