@@ -1,6 +1,8 @@
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=0,2,5,30&section=header&reversal=false" width="100%" alt="Profile header" />
+
 <img src="./assets/terminal.svg" alt="Animated azinamouto terminal introduction" width="100%" />
 
 ### 静かに創り、世界を変える。
@@ -19,15 +21,15 @@
 
 ---
 
-### `01 / 自己紹介 — who am i`
+<img src="./assets/who.svg" alt="01 / 自己紹介 — who am i" width="100%" />
 
 こんにちは、azinamouto です。
 
-I'm a **full-stack developer and Founder & CTO of ALZA**, a technology venture focused on building practical digital solutions.
+I'm a **full-stack developer and Founder & CTO of ALZA**, a technology venture focused on developing practical digital solutions.
 
 I've been coding for around **six years**, exploring different technologies, architectures, and ways to turn ideas into functional software.
 
-My work spans frontend development, backend services, databases, infrastructure, security engineering, and developer tooling.
+My work spans frontend interfaces, backend services, databases, infrastructure, security engineering, and developer tooling.
 
 I'm particularly interested in building systems that solve real-world problems, especially in **government technology, information management, automation, and applied AI**.
 
@@ -40,6 +42,8 @@ Outside engineering? I love anime, obviously. :>
 > Progress over perfection.
 
 ---
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### `02 / 技術構成 — my technology stack`
 
@@ -71,6 +75,8 @@ Outside engineering? I love anime, obviously. :>
 
 ---
 
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
 ### `03 / 開発中の作品 — some of my nonsense projects`
 
 **作って、壊して、また作る。**
@@ -86,9 +92,11 @@ Outside engineering? I love anime, obviously. :>
 | [ALZA AI Lab](https://github.com/azinamouto/alza-ai-lab) | Applied AI experiments and engineering prototypes |
 | [TAGAD Foundation](https://github.com/azinamouto/TAGAD-FOUNDATION) | Information systems and application development |
 
-<sub>進行中 — Some projects are experimental, under development, or privately maintained.</sub>
+<sub>進行中 — Projects may be experimental, under development, or privately maintained.</sub>
 
 ---
+
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 ### `04 / 開発記録 — contribution activity`
 
@@ -106,17 +114,33 @@ Outside engineering? I love anime, obviously. :>
 
 <br><br>
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=azinamouto&bg_color=0d1117&color=c9d1d9&line=3fb950&point=58a6ff&area=true&area_color=238636&hide_border=true&custom_title=Development%20Activity" alt="Development Activity Graph" width="100%" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=azinamouto&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&icon_color=3fb950" alt="GitHub Statistics" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azinamouto&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9" alt="Most Used Languages" height="165" />
+
+<br><br>
+
 <sub>継続は力なり。 — Consistency is strength.</sub>
 
 </div>
 
 ---
 
-### `06 / これから — what's next`
+<img src="./assets/divider.svg" width="100%" alt="Section divider" />
+
+### `05 / これから — what lies ahead`
+
+**一歩ずつ。** — One step at a time.
+
+**初心忘るべからず。** — Never forget the beginner's mindset.
 
 I'm interested in the intersection of **software engineering, systems architecture, security, and real-world digital transformation**.
 
-Through ALZA and my personal projects, I'm exploring how technology can simplify workflows, make information more accessible, and create more reliable software systems.
+Through ALZA and my personal projects, I'm continuously exploring how technology can make workflows simpler, information more accessible, and software systems more reliable.
 
 **まだ始まったばかり。**
 
@@ -138,12 +162,15 @@ Through ALZA and my personal projects, I'm exploring how technology can simplify
 
 `less noise. more commits.`
 
-<br>
+<br><br>
 
 <sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
 
 <br><br>
 
-<img src="./assets/footer.svg" width="100%" alt="Profile footer" />
+<img src="./assets/footer.svg" width="100%" alt="Animated profile footer" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0,2,5,30&section=footer&reversal=true" width="100%" alt="Closing wave" />
 
 </div>
+
