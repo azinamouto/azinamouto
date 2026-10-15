@@ -120,13 +120,12 @@ Outside engineering? I love anime, obviously. :>
 
 `less noise. more commits.`
 
-<br><br>
+<br>
 
 <sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
 
-<br><br>
+<br>
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
-
 
 
 </div>
