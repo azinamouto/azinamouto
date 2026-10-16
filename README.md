@@ -36,8 +36,6 @@ Outside engineering? I love anime, obviously. :>
 >
 > Progress over perfection.
 
-<br>
-
 ### `02 / 技術構成 — my technology stack`
 
 <div align="center">
