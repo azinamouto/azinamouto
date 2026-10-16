@@ -8,7 +8,7 @@
 <div align="center">
   
 **RAARARARARAAAAAH!!!** · **IT'S ME AKEII** ·
-**Founder & CTO @ ALZA** **Full-Stack Engineer** 
+**Founder & CTO @ ALZA** . **Full-Stack Engineer** 
 
 <sub>創設者・最高技術責任者 ｜ フルスタックエンジニア ｜ ものづくりが好き。</sub>
 `設計` · `開発` · `セキュリティ` · `創造`
