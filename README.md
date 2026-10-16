@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-
+`RARARARAAAAAAAAAAAAH!!! IT'S ME AKEIIIII`
  **Founder & CTO @ ALZA** · **Full-Stack Engineer** · **Systems Architecture Enthusiast**
 
 <sub>創設者・最高技術責任者 ｜ フルスタックエンジニア ｜ ものづくりが好き。</sub>
@@ -105,7 +105,7 @@ Outside engineering? I love anime, obviously. :>
 ### まだ途中 **静かに、着実に。** 
 
 <br>
-<sub>ありがとう、またね。 — Thanks for stopping by. See you around.</sub>
+<sub>ありがとう、またね。 — Thanks for stopping by. RARARARARARAAAAAAH!!!!!.</sub>
 
 <br>
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
