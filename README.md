@@ -30,11 +30,13 @@ I'm particularly interested in building systems that solve real-world problems, 
 I enjoy understanding how systems work beneath the surface, not just making interfaces look good.
 
 Outside engineering? I love anime, obviously. :>
+<br>
 
 > **完璧より前進。**
 >
 > Progress over perfection.
 
+<br>
 
 ### `02 / 技術構成 — my technology stack`
 
