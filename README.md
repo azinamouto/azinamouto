@@ -6,7 +6,8 @@
 </div>
 
 <div align="center">
-`RARARARAAAAAAAAAAAAH!!! IT'S ME AKEIIIII`
+`RAARAAARAAAAAAAHHH!!! IT'S ME AKEI`
+  <br>
  **Founder & CTO @ ALZA** · **Full-Stack Engineer** · **Systems Architecture Enthusiast**
 
 <sub>創設者・最高技術責任者 ｜ フルスタックエンジニア ｜ ものづくりが好き。</sub>
