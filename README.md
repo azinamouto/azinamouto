@@ -1,7 +1,7 @@
 
 <div align="center">
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
-<img src="./assets/whoami.svg" alt="01 / 自己紹介 — who am i" width="100%" />
+<img src="./assets/whoami-retro.svg" alt="01 / 自己紹介 — who am i" width="100%" />
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 </div>
 
