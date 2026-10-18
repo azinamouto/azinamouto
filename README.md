@@ -82,25 +82,6 @@ Outside engineering? I love anime, obviously. :>
 <sub>進行中 — Projects may be experimental, under development, or privately maintained.</sub>
 
 
-### `04 / 開発記録 — contribution activity`
-
-<div align="center">
-
-**日々の積み重ね。**
-
-*Small steps, every day.*
-
-<br>
-
-<a href="https://github.com/azinamouto?tab=overview">
-  <img src="https://ghchart.rshah.org/3fb950/azinamouto" alt="GitHub Contribution Calendar" width="100%" />
-</a>
-
-<br><br>
-
-
-</div>
-
 <div align="center">
 
 ### まだ途中 **静かに、着実に。** 
