@@ -25,7 +25,6 @@
 
 <img src="./assets/section-01.svg" width="100%" alt="01 / 自己紹介 — who am i" />
 
-<img src="./assets/Terminal.svg" width="100%" alt="azinamouto@alza:~ — 静かに創り、世界を変える。" />
 
 </div>
 
@@ -164,7 +163,7 @@ Outside engineering? I love anime, obviously. :>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
-<img src="./assets/section-04.svg" width="100%" alt="04 / 活動記録 — github activity" />
+<img src="./assets/section-04.svg" width="100%" alt="04 / 活動記録 — end" />
 
 <br>
 
