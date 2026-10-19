@@ -163,7 +163,6 @@ Outside engineering? I love anime, obviously. :>
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
-<img src="./assets/section-04.svg" width="100%" alt="04 / 活動記録 — end" />
 
 <br>
 
