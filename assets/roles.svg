@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="100%" role="img" aria-label="Founder and CTO at ALZA, Full-Stack Engineer, Security Engineer">
+  <title>Roles</title>
+  <defs><filter id="g" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <g>
+    <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="22" font-weight="700" fill="#00f0ff" filter="url(#g)" opacity="0">Founder &amp; CTO @ ALZA
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0.0000;0.0240;0.1760;0.2000;1.0000" dur="15s" repeatCount="indefinite" calcMode="discrete"/></text>
+    <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="22" font-weight="700" fill="#b967ff" filter="url(#g)" opacity="0">Full-Stack Engineer
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2000;0.2240;0.3760;0.4000;1.0000" dur="15s" repeatCount="indefinite" calcMode="discrete"/></text>
+    <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="22" font-weight="700" fill="#ff2e88" filter="url(#g)" opacity="0">Security Engineer
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4000;0.4240;0.5760;0.6000;1.0000" dur="15s" repeatCount="indefinite" calcMode="discrete"/></text>
+    <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="22" font-weight="700" fill="#00f0ff" filter="url(#g)" opacity="0">Builder of Tools
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.6000;0.6240;0.7760;0.8000;1.0000" dur="15s" repeatCount="indefinite" calcMode="discrete"/></text>
+    <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="22" font-weight="700" fill="#b967ff" filter="url(#g)" opacity="0">Anime Enjoyer  :>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.0000;0.8000;0.8240;0.9760;1.0000" dur="15s" repeatCount="indefinite" calcMode="discrete"/></text>
+  </g>
+  <g stroke="#b967ff" stroke-width="2" stroke-linecap="round" opacity=".7"><path d="M200 28 H150"/><path d="M700 28 H750"/></g>
+</svg>

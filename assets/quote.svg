@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="100%" role="img" aria-label="完璧より前進。 Progress over perfection.">
+  <title>完璧より前進。 — Progress over perfection.</title>
+  <defs>
+    <linearGradient id="n" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#b967ff"/><stop offset="1" stop-color="#ff2e88"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#b967ff" stop-opacity=".35"/><stop offset="1" stop-color="#0b0f1a" stop-opacity="0"/></radialGradient>
+    <filter id="g" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="6" y="6" width="888" height="158" rx="14" fill="#0b0f1a"/>
+  <rect x="6" y="6" width="888" height="158" rx="14" fill="url(#glow)"/>
+  <circle cx="450" cy="85" r="64" fill="none" stroke="#ff2e88" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="4 8"><animateTransform attributeName="transform" type="rotate" from="0 450 85" to="360 450 85" dur="30s" repeatCount="indefinite"/></circle>
+  <rect x="6" y="6" width="888" height="158" rx="14" fill="none" stroke="url(#n)" stroke-width="1.6" filter="url(#g)"/>
+  <text x="40" y="84" font-family="Georgia,serif" font-size="90" fill="#b967ff" fill-opacity=".5">&#8220;</text>
+  <text x="450" y="86" text-anchor="middle" font-family="'Noto Sans JP','Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="44" font-weight="800" fill="#fff" filter="url(#g)" letter-spacing="8">完璧より前進。</text>
+  <text x="450" y="124" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="15" letter-spacing="6" fill="#00f0ff">PROGRESS OVER PERFECTION</text>
+  <g fill="#ff2e88" filter="url(#g)"><circle cx="150" cy="140" r="3"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><circle cx="750" cy="140" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle></g>
+</svg>
