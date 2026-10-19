@@ -116,13 +116,13 @@ Outside engineering? I love anime, obviously. :>
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>💀 <a href="https://github.com/azinamouto/shinigami">Shinigami</a></h3>
+      <h3> <a href="https://github.com/azinamouto/shinigami">Shinigami</a></h3>
       <sub>Security scanning, dependency vulnerability analysis, and SARIF reporting</sub>
       <br><br>
       <a href="https://github.com/azinamouto/shinigami"><img src="https://img.shields.io/badge/OPEN_REPO-→-ff2e88?style=flat-square&labelColor=0b0f1a" alt="Open Shinigami" /></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🌑 <a href="https://github.com/azinamouto/kuro">Kuro</a></h3>
+      <h3> <a href="https://github.com/azinamouto/kuro">Kuro</a></h3>
       <sub>Go-based CLI development and developer tooling</sub>
       <br><br>
       <a href="https://github.com/azinamouto/kuro"><img src="https://img.shields.io/badge/OPEN_REPO-→-00f0ff?style=flat-square&labelColor=0b0f1a" alt="Open Kuro" /></a>
@@ -130,13 +130,13 @@ Outside engineering? I love anime, obviously. :>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧰 <a href="https://github.com/azinamouto/alza-devkit">ALZA Devkit</a></h3>
+      <h3> <a href="https://github.com/azinamouto/alza-devkit">ALZA Devkit</a></h3>
       <sub>Mock-data generation, database schemas, and development utilities</sub>
       <br><br>
       <a href="https://github.com/azinamouto/alza-devkit"><img src="https://img.shields.io/badge/OPEN_REPO-→-b967ff?style=flat-square&labelColor=0b0f1a" alt="Open ALZA Devkit" /></a>
     </td>
     <td width="50%" valign="top">
-      <h3>💹 <a href="https://github.com/azinamouto/alza-Finstation">ALZA Finstation</a></h3>
+      <h3> <a href="https://github.com/azinamouto/alza-Finstation">ALZA Finstation</a></h3>
       <sub>Financial tracking and operational management</sub>
       <br><br>
       <a href="https://github.com/azinamouto/alza-Finstation"><img src="https://img.shields.io/badge/OPEN_REPO-→-ff2e88?style=flat-square&labelColor=0b0f1a" alt="Open ALZA Finstation" /></a>
@@ -144,13 +144,13 @@ Outside engineering? I love anime, obviously. :>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/azinamouto/alza-ai-lab">ALZA AI Lab</a></h3>
+      <h3> <a href="https://github.com/azinamouto/alza-ai-lab">ALZA AI Lab</a></h3>
       <sub>Applied AI experiments and engineering prototypes</sub>
       <br><br>
       <a href="https://github.com/azinamouto/alza-ai-lab"><img src="https://img.shields.io/badge/OPEN_REPO-→-00f0ff?style=flat-square&labelColor=0b0f1a" alt="Open ALZA AI Lab" /></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🏛️ <a href="https://github.com/azinamouto/TAGAD-FOUNDATION">TAGAD Foundation</a></h3>
+      <h3> <a href="https://github.com/azinamouto/TAGAD-FOUNDATION">TAGAD Foundation</a></h3>
       <sub>Information systems and application development</sub>
       <br><br>
       <a href="https://github.com/azinamouto/TAGAD-FOUNDATION"><img src="https://img.shields.io/badge/OPEN_REPO-→-b967ff?style=flat-square&labelColor=0b0f1a" alt="Open TAGAD Foundation" /></a>
@@ -167,13 +167,6 @@ Outside engineering? I love anime, obviously. :>
 <img src="./assets/section-04.svg" width="100%" alt="04 / 活動記録 — github activity" />
 
 <br>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=azinamouto&show_icons=true&hide_border=true&bg_color=0b0f1a&title_color=00f0ff&icon_color=ff2e88&text_color=c9d1d9&ring_color=b967ff&border_radius=12" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=azinamouto&layout=compact&hide_border=true&bg_color=0b0f1a&title_color=00f0ff&text_color=c9d1d9&border_radius=12" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com?user=azinamouto&hide_border=true&background=0b0f1a&ring=b967ff&fire=ff2e88&currStreakLabel=00f0ff&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&border_radius=12" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=azinamouto&bg_color=0b0f1a&color=00f0ff&line=b967ff&point=ff2e88&area=true&area_color=b967ff&hide_border=true&radius=12" width="100%" alt="Contribution graph" />
 
 <br>
 
