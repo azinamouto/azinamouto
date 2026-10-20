@@ -68,26 +68,26 @@ Outside engineering? I love anime, obviously. :>
     <td align="center"><img src="https://skillicons.dev/icons?i=ts,js,python,go,java,kotlin,dart,bash&theme=dark&perline=8" alt="Languages: TypeScript, JavaScript, Python, Go, Java, Kotlin, Dart, Bash" /></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>🎨 FRONTEND</b><br>フロントエンド</sub></td>
+    <td align="center"><sub><b> FRONTEND</b><br>フロントエンド</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=react,html,css,tailwind,bootstrap&theme=dark&perline=8" alt="Frontend: React, HTML, CSS, Tailwind, Bootstrap" /></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>⚙️ BACKEND</b><br>バックエンド</sub></td>
+    <td align="center"><sub><b> BACKEND</b><br>バックエンド</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,postgres,supabase&theme=dark&perline=8" alt="Backend: Node.js, NestJS, Express, PostgreSQL, Supabase" /></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>📱 MOBILE</b><br>モバイル</sub></td>
+    <td align="center"><sub><b> MOBILE</b><br>モバイル</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=flutter,androidstudio&theme=dark&perline=8" alt="Mobile: Flutter, Android Studio" /></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>🚀 DEVOPS & TOOLS</b><br>開発基盤</sub></td>
+    <td align="center"><sub><b> DEVOPS & TOOLS</b><br>開発基盤</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,vercel,linux,vscode,postman&theme=dark&perline=8" alt="DevOps and tools: Git, GitHub, GitHub Actions, Docker, Vercel, Linux, VS Code, Postman" /></td>
   </tr>
 </table>
 
 <br>
 
-<sub><b>🛡️ SECURITY ・ セキュリティ</b></sub>
+<sub><b> SECURITY ・ セキュリティ</b></sub>
 
 <br>
 
