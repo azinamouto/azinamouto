@@ -2,7 +2,6 @@
 
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 <img src="./assets/whoami-samurai.svg" alt="01 / 自己紹介 — who am i" width="100%" />
-<img src="./assets/roles.svg" alt="Founder & CTO @ ALZA · Full-Stack Engineer · Security Engineer" width="100%" />
 <img src="./assets/divider.svg" width="100%" alt="Section divider" />
 
 **RAARARARARAAAAAH!!!** · **IT'S ME AKEII** ·
