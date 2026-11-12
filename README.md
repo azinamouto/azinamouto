@@ -169,7 +169,7 @@ Outside engineering? I love anime, obviously. :>
 
 ### まだ途中 **静かに、着実に。**
 
-<sub>ありがとう、またね。 — Thanks for stopping by. RARARARARARAAAAAAH!!!!!</sub>
+<sub>ありがとう、またね。 - . RARARARARARAAAAAAH!!!!!</sub>
 
 <br>
 
